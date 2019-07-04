@@ -6,7 +6,7 @@ Desenvolvimento do site para o Grupo de Pesquisa da Relação Infância, Juventu
 Deve ser clonado no lugar da pasta `themes` no diretório de instalação do WP. Na pasta `wp-content`:
 
 ```
-$ git clone https://github.com/PassaroRoxo/site-lab-grim.git
+$ git clone https://github.com/PassaroRoxo/site-lab-grim.git themes
 ```
 Os stylesheets do projeto estão escritos em SCSS, por isso é preciso compilar para CSS padrão para funcionar. Está configurado para usar a biblioteca [node-sass](https://github.com/sass/node-sass), portanto também precisa do [Node.js](https://nodejs.org) instalado.
 
