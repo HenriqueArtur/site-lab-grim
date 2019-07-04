@@ -1,0 +1,12 @@
+{
+  "name": "LabGrim",
+  "version": "1.0.0",
+  "scripts": {
+    "css": "node-sass --output-style expanded --include-path LabGrim/scss LabGrim/scss/main.scss LabGrim/style.css",
+    "watch": "nodemon -w LabGrim/scss -e scss -x \"npm run css\""
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.18.11"
+  }
+}
