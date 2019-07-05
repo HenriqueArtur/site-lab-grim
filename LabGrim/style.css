@@ -32,13 +32,25 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFFFFF;
 }
 
-.top-bar .nav-bar {
+.top-bar .pags-bar {
   font-family: "Lovelo", sans-serif;
   font-weight: bolder;
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   color: #FFFFFF;
 }
 
-.top-bar .nav-bar ul {
+.top-bar .pags-bar ul {
   list-style-type: none;
+}
+
+.top-bar .pags-bar ul li {
+  display: inline;
+}
+
+.top-bar .pags-bar ul li a {
+  color: #FFFFFF;
+}
+
+.top-bar .pags-bar ul li a:link, .top-bar .pags-bar ul li a:visited, .top-bar .pags-bar ul li a:hover {
+  text-decoration: none;
 }

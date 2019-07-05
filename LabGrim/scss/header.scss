@@ -2,7 +2,7 @@
 	background-color: $color-header-bg;
 	color: $white;
 
-	.nav-bar {
+	.pags-bar {
 		font-family: $font-header;
 		font-weight: bolder;
 		font-size: $size-font-header;
@@ -10,6 +10,18 @@
 
 		ul {
 			list-style-type: none;
+
+			li {
+				display: inline;
+
+				a {
+					color: $white;
+				}
+
+				a:link, a:visited, a:hover {
+					text-decoration: none;
+				}
+			}
 		}
 	}
 }
