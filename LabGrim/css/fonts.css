@@ -1,76 +1,76 @@
 @font-face {
     font-family: Bariol;
-    src: url(./fonts/BARIOL_REGULAR.otf) format('truetype');
+    src: url(./fonts/BARIOL_REGULAR.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: Bariol;
-    src: url(./fonts/BARIOL_REGULAR_ITALIC.otf) format('truetype');
+    src: url(./fonts/BARIOL_REGULAR_ITALIC.ttf) format('truetype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: Bariol;
-    src: url(./fonts/BARIOL_BOLD.otf) format('truetype');
+    src: url(./fonts/BARIOL_BOLD.ttf) format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: Bariol;
-    src: url(./fonts/BARIOL_BOLD_ITALIC.otf) format('truetype');
+    src: url(./fonts/BARIOL_BOLD_ITALIC.ttf) format('truetype');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: Bariol;
-    src: url(./fonts/BARIOL_LIGHT.otf) format('truetype');
+    src: url(./fonts/BARIOL_LIGHT.ttf) format('truetype');
     font-weight: lighter;
     font-style: normal;
 }
 
 @font-face {
     font-family: Bariol;
-    src: url(./fonts/BARIOL_LIGHT_ITALIC.otf) format('truetype');
+    src: url(./fonts/BARIOL_LIGHT_ITALIC.ttf) format('truetype');
     font-weight: lighter;
     font-style: italic;
 }
 
 @font-face {
     font-family: Bariol;
-    src: url(./fonts/BARIOL_THIN.otf) format('truetype');
+    src: url(./fonts/BARIOL_THIN.ttf) format('truetype');
     font-weight: thin;
     font-style: normal;
 }
 
 @font-face {
     font-family: Bariol;
-    src: url(./fonts/BARIOL_THIN_ITALIC.otf) format('truetype');
+    src: url(./fonts/BARIOL_THIN_ITALIC.ttf) format('truetype');
     font-weight: thin;
     font-style: italic;
 }
 
 @font-face {
     font-family: Lovelo;
-    src: url(./fonts/Lovelo Black.otf) format('truetype');
+    src: url(./fonts/Lovelo-Black.ttf) format('truetype');
     font-weight: bolder;
     font-style: normal;
 }
 
 @font-face {
     font-family: LoveloLine;
-    src: url(./fonts/Lovelo Line Bold.otf) format('truetype');
+    src: url(./fonts/Lovelo-Line-Bold.ttf) format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: LoveloLine;
-    src: url(./fonts/Lovelo Line Light.otf) format('truetype');
+    src: url(./fonts/Lovelo-Line-Light.ttf) format('truetype');
     font-weight: lighter;
     font-style: normal;
 }

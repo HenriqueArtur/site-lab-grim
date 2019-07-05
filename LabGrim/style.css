@@ -11,6 +11,8 @@
 /* FONTES */
 /* TAMANHOS */
 /* CORES */
+/* MARGIN */
+/* PADDING */
 /* DEFAULT */
 body {
   font-family: "Lovelo", Arial, sans-serif;
@@ -28,23 +30,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-bar {
+  z-index: 1000;
+  padding: 0.6rem;
+  padding-top: 1.6rem;
   background-color: #0D0318;
   color: #FFFFFF;
 }
 
 .top-bar .pags-bar {
-  font-family: "Lovelo", sans-serif;
-  font-weight: bolder;
-  font-size: 1.2rem;
   color: #FFFFFF;
 }
 
 .top-bar .pags-bar ul {
   list-style-type: none;
+  border-bottom: none;
 }
 
 .top-bar .pags-bar ul li {
+  font-family: "Lovelo", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
   display: inline;
+  margin: 0.2rem;
+  padding: 0.6rem;
 }
 
 .top-bar .pags-bar ul li a {
@@ -53,4 +61,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .top-bar .pags-bar ul li a:link, .top-bar .pags-bar ul li a:visited, .top-bar .pags-bar ul li a:hover {
   text-decoration: none;
+}
+
+.top-bar .pags-bar ul li:hover {
+  border-bottom: 3px solid #FFFFFF;
 }
