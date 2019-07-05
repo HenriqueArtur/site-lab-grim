@@ -14,9 +14,9 @@
 				<div class="container">
 					<div class="row">
 						<section class="nav-logo col-md-2 col-12 text-center">Logo</section>
-						<nav class="pags-bar col-md-8 col-8 text-right"><?php wp_nav_menu( array( 'theme_location' => 'my_main_menu' ) ); ?></nav>
-						<nav class="social-media-icons col-md-2 col-2 text-right">
-							
+						<nav class="pags-bar col-md-8 col-12 text-right"><?php wp_nav_menu( array( 'theme_location' => 'my_main_menu' ) ); ?></nav>
+						<nav class="social-media-icons col-md-2 col-12 text-center">
+							<?php if ( function_exists('cn_social_icon') ) echo cn_social_icon(); ?>
 						</nav>
 					</div> <!-- END ROW -->
 				</div> <!-- END CONTAINER -->
