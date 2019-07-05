@@ -1,0 +1,15 @@
+.top-bar {
+	background-color: $color-header-bg;
+	color: $white;
+
+	.nav-bar {
+		font-family: $font-header;
+		font-weight: bolder;
+		font-size: $size-font-header;
+		color: $white;
+
+		ul {
+			list-style-type: none;
+		}
+	}
+}

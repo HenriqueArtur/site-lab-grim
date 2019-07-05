@@ -1,3 +1,4 @@
+<?php get_header(); ?>
 		<div class="content-area">
 			<main>
 				<section class="bg-home"></section>
@@ -12,3 +13,4 @@
 				</section>
 			</main> <!-- end main -->
 		</div> <!-- end content-area -->
+<?php get_footer(); ?>
