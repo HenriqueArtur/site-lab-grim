@@ -3,42 +3,83 @@ p {
 	font-family: $font-text;
 }
 
-m-t-1p{
+.p-2p{
+	padding: 2%;
+}
+
+.p-r-1p {
+	padding-right: 1%;
+}
+
+.m-t-1p{
 	margin-top: 1%;
 }
 
-m-t-2p{
+.m-t-2p{
 	margin-top: 2%;
 }
 
-.bg-title-1 {
-
-	background-image: url('./img/pattern_balls.svg');
-	background-repeat: repeat-y;
-	background-size: 28%;
+.m-t-5p{
+	margin-top: 5%;
 }
 
-.bg-title-2 {
-
-	background-image: url('./img/pattern_balls.svg');
-	background-repeat: no-repeat;
-	background-size: 28%;
-}
-
-.div-title {
-	background-color: #fad211;
+.div-title-1 {
 	display: inline-block;
 	width: auto;
-	padding: 0.6% 3% 0 3%;
-	margin-left: 1.5%;
-	margin-top: 0.8%;
+	padding: 1.5% 4% 0 5%;
+	background-image: url("./img/titulooqe.svg");
+	background-repeat: no-repeat;
 	
 }
 
-.text-center {
-	text-align: center;
+.div-title-2 {
+	display: inline-block;
+	width: auto;
+	padding: 1.6% 4% 0 5%;
+	background-image: url("./img/titulocomocomecou.svg");
+	background-repeat: no-repeat;
 }
 
-.p-2p{
-	padding: 2%;
+.div-title-3 {
+	display: inline-block;
+	width: auto;
+	padding: 1.6% 4% 0 5%;
+	background-image: url("./img/titulonossaequipe.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.align-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.navbar-button {
+	font-family: $font-button;
+	font-size: 13px;
+	background-color: $color-inactive;
+	border: none;
+	color: $color-header-bg;
+	height: 55px;
+	width: 115px;
+}
+
+.navbar-button-active {
+	font-family: $font-button;
+	font-size: 13px;
+	background-color: $color-active;
+	border: none;
+	color: $white;
+	height: 55px;
+	width: 115px;
+}
+
+
+.navbar-button:hover {
+	background-color: $color-hover;
 }

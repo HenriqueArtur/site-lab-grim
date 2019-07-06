@@ -11,6 +11,8 @@
 /* FONTES */
 /* TAMANHOS */
 /* CORES */
+/* MARGIN */
+/* PADDING */
 /* DEFAULT */
 body {
   font-family: "Lovelo", Arial, sans-serif;
@@ -22,23 +24,133 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "LoveloLine", sans-serif;
+  font-family: "LoveloLineBold", sans-serif;
   font-weight: normal;
   color: #000000;
 }
 
 .top-bar {
+  z-index: 1000;
+  padding: 0.6rem;
+  padding-top: 1.6rem;
   background-color: #0D0318;
   color: #FFFFFF;
 }
 
-.top-bar .nav-bar {
-  font-family: "Lovelo", sans-serif;
-  font-weight: bolder;
-  font-size: 2.2rem;
+.top-bar .pags-bar {
   color: #FFFFFF;
 }
 
-.top-bar .nav-bar ul {
+.top-bar .pags-bar ul {
   list-style-type: none;
+  border-bottom: none;
+}
+
+.top-bar .pags-bar ul li {
+  font-family: "Lovelo", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  display: inline;
+  margin: 0.2rem;
+  padding: 0.6rem;
+}
+
+.top-bar .pags-bar ul li a {
+  color: #FFFFFF;
+}
+
+.top-bar .pags-bar ul li a:link, .top-bar .pags-bar ul li a:visited, .top-bar .pags-bar ul li a:hover {
+  text-decoration: none;
+}
+
+.top-bar .pags-bar ul li:hover {
+  border-bottom: 3px solid #FFFFFF;
+}
+
+.top-bar .social-media-icons {
+  bottom: 1rem;
+}
+
+p {
+  text-align: justify;
+  font-family: "Bariol", sans-serif;
+}
+
+.p-2p {
+  padding: 2%;
+}
+
+.p-r-1p {
+  padding-right: 1%;
+}
+
+.m-t-1p {
+  margin-top: 1%;
+}
+
+.m-t-2p {
+  margin-top: 2%;
+}
+
+.m-t-5p {
+  margin-top: 5%;
+}
+
+.div-title-1 {
+  display: inline-block;
+  width: auto;
+  padding: 1.5% 4% 0 5%;
+  background-image: url("./img/titulooqe.svg");
+  background-repeat: no-repeat;
+}
+
+.div-title-2 {
+  display: inline-block;
+  width: auto;
+  padding: 1.6% 4% 0 5%;
+  background-image: url("./img/titulocomocomecou.svg");
+  background-repeat: no-repeat;
+}
+
+.div-title-3 {
+  display: inline-block;
+  width: auto;
+  padding: 1.6% 4% 0 5%;
+  background-image: url("./img/titulonossaequipe.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.navbar-button {
+  font-family: "LoveloBlack", sans-serif;
+  font-size: 13px;
+  background-color: #C1C1C1;
+  border: none;
+  color: #0D0318;
+  height: 55px;
+  width: 115px;
+}
+
+.navbar-button-active {
+  font-family: "LoveloBlack", sans-serif;
+  font-size: 13px;
+  background-color: #0d0318;
+  border: none;
+  color: #FFFFFF;
+  height: 55px;
+  width: 115px;
+}
+
+.navbar-button:hover {
+  background-color: #A0A0A0;
 }

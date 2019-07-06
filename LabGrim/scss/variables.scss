@@ -1,11 +1,12 @@
 /* FONTES */
 $font-header: "Lovelo", sans-serif;
-$font-footer: "Bariol", sans-serif;
-$font-title: "LoveloLine", sans-serif;
+$font-footer: "BariolRegular", sans-serif;
+$font-title: "LoveloLineBold", sans-serif;
+$font-button: "LoveloBlack", sans-serif;
 $font-text: "Bariol", sans-serif;
 
 /* TAMANHOS */
-$size-font-header: 2.2rem;
+$size-font-header: 1.0rem;
 $size-font-footer: 2.3rem;
 $size-font-title: 4.9rem;
 $size-font-text: 2.0rem;
@@ -15,6 +16,15 @@ $white: #FFFFFF;
 $black: #000000;
 $color-header-bg: #0D0318;
 $color-home-pelicula: #0D0318;
+$color-inactive: #C1C1C1;
+$color-active: #0d0318;
+$color-hover: #A0A0A0;
+
+/* MARGIN */
+$margin-header-text: 0.2rem;
+
+/* PADDING */
+$padding-header-text: 0.6rem;
 
 /* DEFAULT */
 @mixin default-font-config() {

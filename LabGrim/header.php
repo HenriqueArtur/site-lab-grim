@@ -13,23 +13,11 @@
 
 				<div class="container">
 					<div class="row">
-						<div class="nav-logo col-xl-2 col-sm-2 col-2"><p>Logo</p></div>
-						<nav class="nav-bar col-xl-8 col-sm-8 col-8 text-right">
-							<ul>
-								<li>INICIO</li>
-								<li>SOBRE</li>
-								<li>AGENDA</li>
-								<li>NOTÍCIAS</li>
-								<li>AÇÕES</li>
-								<li>PRODUÇÕES</li>
-							</ul>
+						<section class="nav-logo col-md-2 col-12 text-center">Logo</section>
+						<nav class="pags-bar col-md-8 col-12 text-right"><?php wp_nav_menu( array( 'theme_location' => 'my_main_menu' ) ); ?></nav>
+						<nav class="social-media-icons col-md-2 col-12 text-center">
+							<?php if ( function_exists('cn_social_icon') ) echo cn_social_icon(); ?>
 						</nav>
-						<div class="social-media-icon col-xl-2 col-sm-2 col-2 text-right">
-							<ul>
-								<li>YouTube</li>
-								<li>Facebook</li>
-							</ul>
-						</div>
 					</div> <!-- END ROW -->
 				</div> <!-- END CONTAINER -->
 

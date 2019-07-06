@@ -1,15 +1,43 @@
 .top-bar {
+	z-index: 1000;
+	padding: 0.6rem;
+	padding-top: 1.6rem;
 	background-color: $color-header-bg;
 	color: $white;
 
-	.nav-bar {
-		font-family: $font-header;
-		font-weight: bolder;
-		font-size: $size-font-header;
+	.pags-bar {
+		
 		color: $white;
 
 		ul {
 			list-style-type: none;
+			border-bottom: none;
+
+			li {
+				font-family: $font-header;
+				font-weight: normal;
+				font-size: $size-font-header;
+
+				display: inline;
+				margin: $margin-header-text;
+				padding: $padding-header-text;
+
+				a {
+					color: $white;
+				}
+
+				a:link, a:visited, a:hover {
+					text-decoration: none;
+				}
+			}
+
+			li:hover {
+				border-bottom: 3px solid $white;
+			}
 		}
+	}
+
+	.social-media-icons {
+		bottom: 1rem;
 	}
 }
