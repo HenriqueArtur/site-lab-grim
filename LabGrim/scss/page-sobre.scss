@@ -1,0 +1,44 @@
+p {
+	text-align: justify;
+	font-family: $font-text;
+}
+
+m-t-1p{
+	margin-top: 1%;
+}
+
+m-t-2p{
+	margin-top: 2%;
+}
+
+.bg-title-1 {
+
+	background-image: url('./img/pattern_balls.svg');
+	background-repeat: repeat-y;
+	background-size: 28%;
+}
+
+.bg-title-2 {
+
+	background-image: url('./img/pattern_balls.svg');
+	background-repeat: no-repeat;
+	background-size: 28%;
+}
+
+.div-title {
+	background-color: #fad211;
+	display: inline-block;
+	width: auto;
+	padding: 0.6% 3% 0 3%;
+	margin-left: 1.5%;
+	margin-top: 0.8%;
+	
+}
+
+.text-center {
+	text-align: center;
+}
+
+.p-2p{
+	padding: 2%;
+}
