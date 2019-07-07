@@ -9,7 +9,10 @@
 
 	<body <?php body_class(); ?>>
 		<header>
-			<section class="top-bar">
+			<?php $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
+				$host_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}";
+			?>
+			<section class="top-bar<?php if ( $actual_link != $host_link . "/lab-grim/" ): echo " notHome"; else: ""; endif; ?>">
 
 				<div class="container">
 					<div class="row">
@@ -20,13 +23,18 @@
 						</div>
 						<!-- DESKTOP MENU -->
 						<section id="my-nav-logo" class="nav-logo col-md-2 col-12 text-center">
-							<?php 
-								if ( the_title( '', '', false ) != 'Olá, mundo!' ):
-									the_title( '<h1 class="nav-logo-title">', '</h1>' );
-								else:
-									get_template_part( 'template-parts/logo' );
-								endif;
-							?>
+							<div class="logo-desktop">
+								<?php get_template_part( 'template-parts/logo' ); ?>
+							</div>
+							<div class="logo-mobile">
+								<?php 
+									if ( the_title( '', '', false ) != 'Olá, mundo!' ):
+										the_title( '<h1 class="nav-logo-title">', '</h1>' );
+									else:
+										get_template_part( 'template-parts/logo' );
+									endif;
+								?>
+							</div>
 						</section>
 						<nav id="my-pags-bar" class="pags-bar col-md-8 col-12 text-right">
 							<?php wp_nav_menu( array( 'theme_location' => 'my_main_menu' ) ); ?>		

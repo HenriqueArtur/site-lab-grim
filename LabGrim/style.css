@@ -35,7 +35,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 1.6rem;
   padding-bottom: 0rem;
   padding-left: 0rem;
-  background-color: #0D0318;
   color: #FFFFFF;
 }
 
@@ -80,6 +79,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-bar .pags-bar ul li:hover {
+  border-bottom: 3px solid white;
+}
+
+.top-bar .pags-bar ul .btn-dt-active {
   border-bottom: 3px solid white;
 }
 
@@ -169,4 +172,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .top-bar .social-media-icons {
   bottom: 1rem;
+}
+
+.notHome {
+  background-color: #0D0318;
 }
