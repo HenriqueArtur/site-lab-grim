@@ -33,11 +33,25 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1000;
   padding: 0.6rem;
   padding-top: 1.6rem;
+  padding-bottom: 0rem;
+  padding-left: 0rem;
   background-color: #0D0318;
   color: #FFFFFF;
 }
 
+.top-bar .nav-logo .nav-logo-title {
+  color: #FFFFFF;
+  font-family: "LoveloLine", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.top-bar .nav-logo svg {
+  max-height: 24px;
+}
+
 .top-bar .pags-bar {
+  overflow: hidden;
   color: #FFFFFF;
 }
 
@@ -53,6 +67,8 @@ h1, h2, h3, h4, h5, h6 {
   display: inline;
   margin: 0.2rem;
   padding: 0.6rem;
+  border-bottom: 0px solid rgba(255, 255, 255, 0);
+  transition: border-bottom 250ms;
 }
 
 .top-bar .pags-bar ul li a {
@@ -64,7 +80,91 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-bar .pags-bar ul li:hover {
-  border-bottom: 3px solid #FFFFFF;
+  border-bottom: 3px solid white;
+}
+
+.top-bar .pags-bar-mobile {
+  background-color: #0D0318;
+  z-index: 1001;
+  position: fixed;
+  display: block;
+  overflow: hidden;
+  color: #FFFFFF;
+  width: 70%;
+  height: 100%;
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
+  transform: translateX(-100%);
+  transition: transform 500ms ease-out;
+}
+
+.top-bar .pags-bar-mobile ul {
+  list-style-type: none;
+  border-bottom: none;
+}
+
+.top-bar .pags-bar-mobile ul li {
+  font-family: "Lovelo", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  display: block;
+  margin: 0.2rem;
+  margin-bottom: 1.2rem;
+  padding: 0.6rem;
+}
+
+.top-bar .pags-bar-mobile ul li a {
+  color: #FFFFFF;
+}
+
+.top-bar .pags-bar-mobile ul li a:link, .top-bar .pags-bar-mobile ul li a:visited, .top-bar .pags-bar-mobile ul li a:hover {
+  text-decoration: none;
+}
+
+.top-bar .pags-bar-mobile .social-media-icons-mobile {
+  display: block;
+}
+
+.top-bar .pags-bar-mobile .social-media-icons-mobile .cnss-social-icon {
+  margin-left: 3rem;
+}
+
+.top-bar .responsive {
+  display: block !important;
+  transform: translateX(0%);
+}
+
+.top-bar .fa.fa-bars {
+  color: #FFFFFF;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.top-bar .icon {
+  z-index: 1002;
+  transform: translateX(0vw);
+  transition: transform 500ms ease-out;
+}
+
+.top-bar .responsiveSandwich {
+  transform: translateX(50vw);
+}
+
+.top-bar .rect {
+  z-index: 1001;
+  position: absolute;
+  background-color: #0D0318;
+  width: 70vw;
+  height: 22vw;
+  left: 0;
+  top: -1.6rem;
+  transform: translateX(-100%);
+  transition: transform 500ms ease-out;
+}
+
+.top-bar .responsiveSandwichRect {
+  transform: translateX(0%);
 }
 
 .top-bar .social-media-icons {
