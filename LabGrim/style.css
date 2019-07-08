@@ -11,6 +11,8 @@
 /* FONTES */
 /* TAMANHOS */
 /* CORES */
+/* MARGIN */
+/* PADDING */
 /* DEFAULT */
 body {
   font-family: "Lovelo", Arial, sans-serif;
@@ -28,17 +30,159 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-bar {
+  z-index: 1000;
+  padding: 0.6rem;
+  padding-top: 1.6rem;
+  padding-bottom: 0rem;
+  padding-left: 0rem;
+  color: #FFFFFF;
+  /* LOGO */
+  /* END logo */
+  /* MOBILE MENU */
+  /* END mobile menu */
+}
+
+.top-bar .nav-logo .nav-logo-title {
+  color: #FFFFFF;
+  font-family: "LoveloLine", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.top-bar .nav-logo svg {
+  max-height: 24px;
+}
+
+.top-bar .space-in-mobile {
+  margin: 0;
+  padding: 0;
+  /* Position after open menu */
+}
+
+.top-bar .space-in-mobile .mobile-menu {
+  z-index: 1004;
+  position: fixed;
+  display: block;
+  left: -32.4rem;
+  transition: left 500ms ease-out;
+  /* END pags-bar-mobile */
+}
+
+.top-bar .space-in-mobile .mobile-menu .sandwich {
+  position: fixed;
+  z-index: 1001;
+  left: 1.6rem;
+}
+
+.top-bar .space-in-mobile .mobile-menu .sandwich .fa.fa-bars {
+  color: #FFFFFF;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.top-bar .space-in-mobile .mobile-menu .pags-bar-mobile {
   background-color: #0D0318;
+  z-index: 1001;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   color: #FFFFFF;
+  width: 70%;
+  height: 100%;
+  margin: 0;
+  margin-top: -1.6rem;
+  margin-left: -1.6rem;
+  padding: 0;
+  padding-top: -1.6rem;
 }
 
-.top-bar .nav-bar {
-  font-family: "Lovelo", sans-serif;
-  font-weight: bolder;
-  font-size: 2.2rem;
-  color: #FFFFFF;
+.top-bar .space-in-mobile .mobile-menu .pags-bar-mobile .arrow {
+  margin-right: 1.6rem;
+  margin-top: 1.6rem;
 }
 
-.top-bar .nav-bar ul {
+.top-bar .space-in-mobile .mobile-menu .pags-bar-mobile .arrow .fa.fa-arrow-left {
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+
+.top-bar .space-in-mobile .mobile-menu .pags-bar-mobile ul {
   list-style-type: none;
+  border-bottom: none;
+}
+
+.top-bar .space-in-mobile .mobile-menu .pags-bar-mobile ul li {
+  font-family: "Lovelo", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  display: block;
+  margin: 0.2rem;
+  margin-bottom: 1.2rem;
+  padding: 0.6rem;
+}
+
+.top-bar .space-in-mobile .mobile-menu .pags-bar-mobile ul li a {
+  color: #FFFFFF;
+}
+
+.top-bar .space-in-mobile .mobile-menu .pags-bar-mobile ul li a:link, .top-bar .space-in-mobile .mobile-menu .pags-bar-mobile ul li a:visited, .top-bar .space-in-mobile .mobile-menu .pags-bar-mobile ul li a:hover {
+  text-decoration: none;
+}
+
+.top-bar .space-in-mobile .mobile-menu .pags-bar-mobile .social-media-icons-mobile {
+  display: block;
+}
+
+.top-bar .space-in-mobile .mobile-menu .pags-bar-mobile .social-media-icons-mobile .cnss-social-icon {
+  margin-left: 3rem;
+}
+
+.top-bar .space-in-mobile .responsive {
+  left: 1.6rem;
+}
+
+.top-bar .pags-bar {
+  overflow: hidden;
+  color: #FFFFFF;
+}
+
+.top-bar .pags-bar ul {
+  list-style-type: none;
+  border-bottom: none;
+}
+
+.top-bar .pags-bar ul li {
+  font-family: "Lovelo", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  display: inline;
+  margin: 0.2rem;
+  padding: 0.6rem;
+  border-bottom: 0px solid rgba(255, 255, 255, 0);
+  transition: border-bottom 250ms;
+}
+
+.top-bar .pags-bar ul li a {
+  color: #FFFFFF;
+}
+
+.top-bar .pags-bar ul li a:link, .top-bar .pags-bar ul li a:visited, .top-bar .pags-bar ul li a:hover {
+  text-decoration: none;
+}
+
+.top-bar .pags-bar ul li:hover {
+  border-bottom: 3px solid white;
+}
+
+.top-bar .pags-bar ul .btn-dt-active {
+  border-bottom: 3px solid white;
+}
+
+.top-bar .social-media-icons {
+  bottom: 1rem;
+}
+
+.notHome {
+  background-color: #0D0318;
 }

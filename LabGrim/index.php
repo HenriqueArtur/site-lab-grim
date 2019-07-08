@@ -1,6 +1,7 @@
 <?php get_header(); ?>
-		<div class="content-area">
+		<section id="home" class="container">
 			<main>
+				<p>oiiiieee</p>
 				<section class="bg-home"></section>
 				<section class="bg-logo"></section>
 				<section>
@@ -12,5 +13,5 @@
 					</div>
 				</section>
 			</main> <!-- end main -->
-		</div> <!-- end content-area -->
+		</section> <!-- end content-area -->
 <?php get_footer(); ?>
