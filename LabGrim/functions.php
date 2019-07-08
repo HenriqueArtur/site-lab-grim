@@ -45,4 +45,16 @@ function labgrim_sidebars() {
 			'after_title'      => '</h2>'
 		)
 	);
+
+	register_sidebar(
+		array(
+			'name'             => 'Footer',
+			'id'               => 'footer',
+			'description'      => 'Aqui fica a área de costumização do rodapé',
+			'before_widget'    => '<div class="social-icon-wrapper">',
+			'after_widget'     => '</div>',
+			'before_title'     => '<h2 class="social-icon-title">',
+			'after_title'      => '</h2>'
+		)
+	);
 }
