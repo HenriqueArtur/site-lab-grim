@@ -2,9 +2,18 @@
 
 // Carrega scripts e folhas de estilo
 function load_scripts() {
+	// CSS
 	wp_enqueue_style( 'fonts', get_template_directory_uri() . '/css/fonts.css' );
 	wp_enqueue_style( 'style', get_stylesheet_directory_uri() . '/style.css' );
+	
+	// Funções JS
+	wp_enqueue_script( 'responsiveHeader', get_stylesheet_directory_uri() . '/js/responsiveHeader.js', array(), '1.0', true );
+	wp_enqueue_script( 'sandwichMenu', get_stylesheet_directory_uri() . '/js/sandwichMenu.js', array(), '1.0', true );
+	
+	// Script Principal
+	wp_enqueue_script( 'scripts', get_stylesheet_directory_uri() . '/js/scripts.js', array(), '1.0', true );
 
+	// Bootstrap
 	wp_enqueue_script( 'bootstrap-js', get_stylesheet_directory_uri() . '/js/bootstrap/bootstrap.min.js', array( 'jquery' ), '4.3.1', true );
 	wp_enqueue_style( 'bootstrap-css', get_stylesheet_directory_uri() . '/css/bootstrap/bootstrap.min.css', array(), '4.3.1', 'all' );
 }
@@ -21,10 +30,6 @@ function labgrim_config() {
 	);
 }
 add_action( 'after_setup_theme', 'labgrim_config', 0 );
-
-
-///instalar pluguin easy social icons
-
 
 //Registrando Sidebars
 add_action( 'widgets_init', 'labgrim_sidebars' );

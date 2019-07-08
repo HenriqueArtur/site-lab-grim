@@ -2,11 +2,26 @@
 	z-index: 1000;
 	padding: 0.6rem;
 	padding-top: 1.6rem;
-	background-color: $color-header-bg;
+	padding-bottom: 0rem;
+	padding-left: 0rem;
 	color: $white;
 
+	.nav-logo {
+		.nav-logo-title {
+			color: $white;
+
+			font-family: $font-title;
+			font-weight: bold;
+			font-size: 24px;
+		}
+
+		svg {
+    		max-height: 24px;
+		}
+	}
+
 	.pags-bar {
-		
+		overflow: hidden;
 		color: $white;
 
 		ul {
@@ -21,6 +36,8 @@
 				display: inline;
 				margin: $margin-header-text;
 				padding: $padding-header-text;
+				border-bottom: 0px solid rgba( 255, 255, 255, 0 );
+				transition: border-bottom 250ms;
 
 				a {
 					color: $white;
@@ -32,12 +49,108 @@
 			}
 
 			li:hover {
-				border-bottom: 3px solid $white;
+				border-bottom: 3px solid rgba( 255, 255, 255, 1 );
+			} // end li
+
+			.btn-dt-active{
+				border-bottom: 3px solid rgba( 255, 255, 255, 1 );
+			}
+		} // end ul
+	} // end page-bar
+
+	.pags-bar-mobile {
+		background-color: $color-header-bg;
+		z-index: 1001;
+		position: fixed;
+		display: block;
+		overflow: hidden;
+		color: $white;
+		width: 70%;
+		height: 100%;
+		margin: 0;
+		margin-top: 1rem;
+		padding: 0;
+		transform: translateX(-100%);
+		transition: transform 500ms ease-out;
+
+		ul {
+			list-style-type: none;
+			border-bottom: none;
+
+			li {
+				font-family: $font-header;
+				font-weight: normal;
+				font-size: $size-font-header;
+
+				display: block;
+				margin: $margin-header-text;
+				margin-bottom: 1.2rem;
+				padding: $padding-header-text;
+
+				a {
+					color: $white;
+				}
+
+				a:link, a:visited, a:hover {
+					text-decoration: none;
+				}
+			}
+		} // end ul
+
+		.social-media-icons-mobile {
+			display: block;
+
+			.cnss-social-icon {
+
+				margin-left: 3rem;
 			}
 		}
+
+	} // end page-bar
+
+	.responsive {
+		display: block !important;
+		transform: translateX(0%);
+	}
+
+	.fa.fa-bars {
+		color: $white;
+		font-size: 2rem;
+		margin-left: 1rem;
+	}
+
+	.icon {
+		z-index: 1002;
+		transform: translateX(0vw);
+		transition: transform 500ms ease-out;
+	}
+
+	.responsiveSandwich {
+		transform: translateX(50vw);
+	}
+
+	.rect {
+		z-index: 1001;
+		position: absolute;
+		background-color: $color-header-bg;
+		width: 70vw;
+		height: 22vw;
+		left: 0;
+		top: -1.6rem;
+		transform: translateX(-100%);
+		transition: transform 500ms ease-out;
+
+	}
+
+	.responsiveSandwichRect {
+		transform: translateX(0%);
 	}
 
 	.social-media-icons {
 		bottom: 1rem;
 	}
+}
+
+.notHome {
+	background-color: $color-header-bg;
 }
