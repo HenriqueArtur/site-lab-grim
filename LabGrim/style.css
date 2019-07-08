@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .top-bar .nav-logo .nav-logo-title {
   color: #FFFFFF;
-  font-family: "LoveloLine", sans-serif;
+  font-family: "LoveloLineBold", sans-serif;
   font-weight: bold;
   font-size: 24px;
 }
@@ -174,7 +174,10 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 1rem;
 }
 
-<<<<<<< HEAD
+.notHome {
+  background-color: #0D0318;
+}
+
 p {
   text-align: justify;
   font-family: "Bariol", sans-serif;
@@ -257,8 +260,31 @@ p {
 
 .navbar-button:hover {
   background-color: #A0A0A0;
-=======
-.notHome {
-  background-color: #0D0318;
->>>>>>> 4f31876a34a22efa9e384fd41656cbab51d012f0
+}
+
+.image-cropper {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 2%;
+}
+
+.profile-pic {
+  display: inline;
+  margin-top: -25%;
+  margin-left: -25%;
+  width: 200px;
+  padding: 25%;
+}
+
+.text-box {
+  width: 130px;
+  margin-right: 2%;
+}
+
+.link {
+  font-family: "Bariol", sans-serif;
+  font-style: italic;
 }
