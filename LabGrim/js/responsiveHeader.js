@@ -18,7 +18,7 @@ function responsiveHeader() {
         navDesktop.style.display = "none";
         header.style.paddingBottom = "1.6rem";
 
-        space.className = "col-sm-2 col-2";
+        space.className = "space-in-mobile col-sm-2 col-2";
         socialIcons.className = "";
         logo.className = "nav-logo col-md-10 col-10 text-right";
 

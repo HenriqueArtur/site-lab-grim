@@ -17,9 +17,20 @@
 				<div class="container">
 					<div class="row">
 						<div id="space-in-mobile">
-							<a href="javascript:void(0);" class="icon">
-				    			<i class="fa fa-bars"></i>
-				  			</a>
+							<section class="mobile-menu">
+								<a href="javascript:void(0);" class="icon sandwich">
+					    			<i class="fa fa-bars"></i>
+					  			</a>
+								<nav id="my-pags-bar-mobile" class="pags-bar-mobile">
+									<a href="javascript:void(0);" class="icon arrow text-right">
+										<i class="fa fa-arrow-left" aria-hidden="true"></i>
+									</a>
+									<?php wp_nav_menu( array( 'theme_location' => 'my_main_menu' ) ); ?>
+									<nav id="my-social-media-icons-mobile" class="social-media-icons-mobile">
+										<?php if ( function_exists('cn_social_icon') ) echo cn_social_icon(); ?>
+									</nav>
+								</nav>
+							</section>
 						</div>
 						<!-- DESKTOP MENU -->
 						<section id="my-nav-logo" class="nav-logo col-md-2 col-12 text-center">
@@ -47,15 +58,6 @@
 				</div>
 				
 				<!-- MOBILE MENU -->
-				<section class="mobile-menu">
-					<div class="rect"></div>
-					<nav id="my-pags-bar-mobile" class="pags-bar-mobile">
-						<?php wp_nav_menu( array( 'theme_location' => 'my_main_menu' ) ); ?>
-						<nav id="my-social-media-icons-mobile" class="social-media-icons-mobile">
-							<?php if ( function_exists('cn_social_icon') ) echo cn_social_icon(); ?>
-						</nav>
-					</nav>
-				</section>
 				<!-- END MOBILE MENU -->
 
 			</section>
