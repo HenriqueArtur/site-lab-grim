@@ -1,0 +1,22 @@
+.lg-footer {
+	background-color: $color-footer-bg;
+	padding-top: 1.6rem;
+	padding-bottom: 1.6rem;
+
+	.lg-address {
+		color: $white;
+		font-family: $font-footer;
+		font-weight: normal;
+		font-style: normal;
+		font-size: $size-font-footer;
+
+		p {
+			padding: 0;
+			margin: 0;
+		}
+	}
+}
+
+.notHome {
+	background-color: $color-footer-bg;
+}

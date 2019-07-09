@@ -1,4 +1,7 @@
 <?php
+// Requerendo o Customizer
+require get_template_directory() . '/customizers/customizer-footer.php';
+require get_template_directory() . '/customizers/customizer-sobre.php';
 
 // Carrega scripts e folhas de estilo
 function load_scripts() {
