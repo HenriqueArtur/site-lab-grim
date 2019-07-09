@@ -1,5 +1,5 @@
 /* FONTES */
-$font-header: "Lovelo", sans-serif;
+$font-header: "LoveloBlack", sans-serif;
 $font-footer: "BariolRegular", sans-serif;
 $font-title: "LoveloLineBold", sans-serif;
 $font-button: "LoveloBlack", sans-serif;
@@ -28,7 +28,7 @@ $padding-header-text: 0.6rem;
 
 /* DEFAULT */
 @mixin default-font-config() {
-    font-family: "Lovelo", Arial, sans-serif;
+    font-family: "LoveloBlack", Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 1.0rem;
