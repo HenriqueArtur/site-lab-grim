@@ -20,7 +20,7 @@ $ npm run watch
 ```
 Assim vai ficar compilando os stylesheets na pasta `/scss` em tempo real e salvando tudo no arquivo `style.css`.
 
-## Plugins utilizados
+### Plugins utilizados
 * [**Easy Social Icons**](https://br.wordpress.org/plugins/easy-social-icons/) por *cybernetikz*
 
 ### Documentação
