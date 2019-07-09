@@ -55,7 +55,7 @@
                 $wp_customize, 
                 'set_logo_ufc', 
                 array(
-                    'label'      		=> __( 'Coloque aqui a imagem da logo da UFC aqui', 'sec_footer' ),
+                    'label'      		=> __( 'Logo UFC', 'sec_footer' ),
                     'section'    		=> 'sec_footer'                   
                 )
             ) 
@@ -71,7 +71,7 @@
 
 		$wp_customize->add_control(
 			'set_url_ufc', array(
-				'label' 				=> 'Insira o URL do site da UFC',
+				'label' 				=> 'URL UFC',
 				'section'				=> 'sec_footer',
 				'type'					=> 'text'
 			)
@@ -90,7 +90,7 @@
                 $wp_customize, 
                 'set_logo_ica', 
                 array(
-                    'label'      		=> __( 'Coloque aqui a imagem da logo do ICA aqui', 'sec_footer' ),
+                    'label'      		=> __( 'Logo ICA', 'sec_footer' ),
                     'section'    		=> 'sec_footer'                   
                 )
             ) 
@@ -106,7 +106,7 @@
 
 		$wp_customize->add_control(
 			'set_url_ica', array(
-				'label' 				=> 'Insira o URL do site do ICA',
+				'label' 				=> 'URL ICA',
 				'section'				=> 'sec_footer',
 				'type'					=> 'text'
 			)
@@ -125,7 +125,7 @@
                 $wp_customize, 
                 'set_logo_virtual', 
                 array(
-                    'label'      		=> __( 'Coloque aqui a imagem da logo do INSTITUTO UFC VIRTUAL aqui', 'sec_footer' ),
+                    'label'      		=> __( 'Logo INSTITUTO UFC VIRTUAL', 'sec_footer' ),
                     'section'    		=> 'sec_footer'                   
                 )
             ) 
@@ -141,7 +141,7 @@
 
 		$wp_customize->add_control(
 			'set_url_virtual', array(
-				'label' 				=> 'Insira o URL do site do INSTITUTO UFC VIRTUAL',
+				'label' 				=> 'URL INSTITUTO UFC VIRTUAL',
 				'section'				=> 'sec_footer',
 				'type'					=> 'text'
 			)

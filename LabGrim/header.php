@@ -9,7 +9,8 @@
 
 	<body <?php body_class(); ?>>
 		<header>
-			<?php $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
+			<?php
+				$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
 				$host_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}";
 			?>
 			<section class="top-bar<?php if ( $actual_link != $host_link . "/lab-grim/" ): echo " notHome"; else: ""; endif; ?>">
