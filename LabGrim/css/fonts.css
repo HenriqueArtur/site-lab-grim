@@ -1,12 +1,12 @@
 @font-face {
-    font-family: Bariol;
+    font-family: Bariol-regular;
     src: url(./fonts/BARIOL_REGULAR.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: Bariol;
+    font-family: Bariol-regular;
     src: url(./fonts/BARIOL_REGULAR_ITALIC.ttf) format('truetype');
     font-weight: normal;
     font-style: italic;

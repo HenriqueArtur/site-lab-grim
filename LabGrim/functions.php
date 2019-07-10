@@ -1,4 +1,7 @@
 <?php
+// Requerendo o Customizer
+require get_template_directory() . '/customizers/customizer-footer.php';
+require get_template_directory() . '/customizers/customizer-sobre.php';
 
 // Carrega scripts e folhas de estilo
 function load_scripts() {
@@ -8,6 +11,7 @@ function load_scripts() {
 	
 	// Funções JS
 	wp_enqueue_script( 'responsiveHeader', get_stylesheet_directory_uri() . '/js/responsiveHeader.js', array(), '1.0', true );
+	wp_enqueue_script( 'responsiveFooter', get_stylesheet_directory_uri() . '/js/responsiveFooter.js', array(), '1.0', true );
 	wp_enqueue_script( 'sandwichMenu', get_stylesheet_directory_uri() . '/js/sandwichMenu.js', array(), '1.0', true );
 	
 	// Script Principal
@@ -39,18 +43,6 @@ function labgrim_sidebars() {
 			'name'             => 'Social Menu',
 			'id'               => 'social-menu',
 			'description'      => 'Social menu area',
-			'before_widget'    => '<div class="social-icon-wrapper">',
-			'after_widget'     => '</div>',
-			'before_title'     => '<h2 class="social-icon-title">',
-			'after_title'      => '</h2>'
-		)
-	);
-
-	register_sidebar(
-		array(
-			'name'             => 'Footer',
-			'id'               => 'footer',
-			'description'      => 'Aqui fica a área de costumização do rodapé',
 			'before_widget'    => '<div class="social-icon-wrapper">',
 			'after_widget'     => '</div>',
 			'before_title'     => '<h2 class="social-icon-title">',
