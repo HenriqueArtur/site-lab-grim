@@ -2,6 +2,7 @@
 // Requerendo o Customizer
 require get_template_directory() . '/customizers/customizer-footer.php';
 require get_template_directory() . '/customizers/customizer-sobre.php';
+require get_template_directory() . '/widgets/widget-home.php';
 
 // Carrega scripts e folhas de estilo
 function load_scripts() {
@@ -46,6 +47,18 @@ function labgrim_sidebars() {
 			'before_widget'    => '<div class="social-icon-wrapper">',
 			'after_widget'     => '</div>',
 			'before_title'     => '<h2 class="social-icon-title">',
+			'after_title'      => '</h2>'
+		)
+	);
+
+	register_sidebar(
+		array(
+			'name'             => 'Home',
+			'id'               => 'home-pag',
+			'description'      => 'Área para adição do widget Home Lab Grim',
+			'before_widget'    => '<div class="lg-home-wrapper">',
+			'after_widget'     => '</div>',
+			'before_title'     => '<h2 class="lg-home-title">',
 			'after_title'      => '</h2>'
 		)
 	);
