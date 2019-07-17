@@ -15,7 +15,7 @@
 /* PADDING */
 /* DEFAULT */
 body {
-  font-family: "Lovelo", Arial, sans-serif;
+  font-family: "LoveloBlack", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1.0rem;
@@ -187,9 +187,36 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #0D0318;
 }
 
+.lg-footer {
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.lg-footer .lg-address {
+  color: #FFFFFF;
+  font-family: "BariolRegular", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.3rem;
+}
+
+.lg-footer .lg-address p {
+  padding: 0;
+  margin: 0;
+}
+
+.lg-footer .lg-orgs .lg-orgs-img {
+  max-height: 3.5rem;
+  margin: 0rem 1.6rem 0rem 0rem;
+}
+
+.notHome {
+  background-color: #0D0318;
+}
+
 p {
   text-align: justify;
-  font-family: "Bariol", sans-serif;
+  font-family: "BariolRegular", sans-serif;
 }
 
 .p-2p {
@@ -209,7 +236,11 @@ p {
 }
 
 .m-t-5p {
-  margin-top: 5%;
+  margin-top: 5% !important;
+}
+
+.m-b-5p {
+  margin-bottom: 5%;
 }
 
 .div-title-1 {
@@ -291,48 +322,263 @@ p {
   z-index: -1;
 }
 
+.table-pesquisadores {
+  display: table !important;
+  text-align: center;
+}
+
 .text-box {
   width: 130px;
   margin-right: 2%;
+  vertical-align: top;
 }
 
 .link {
-  font-family: "Bariol", sans-serif;
+  font-family: "BariolRegular", sans-serif;
   color: black;
   font-style: italic;
   font-weight: bold;
 }
 
 .nome {
-  font-family: "Bariol", sans-serif;
+  font-family: "BariolRegular", sans-serif;
 }
 
 .rect_amarelo {
-  background-image: url("./img/rect_amarelo.svg");
+  background-image: url("./img/rect_amarelo.png");
   background-repeat: no-repeat;
   background-position: left;
-  width: 33% !important;
-  height: 150px;
+  width: 38% !important;
+  height: 30vh;
+  background-size: 30%;
+  margin-top: -4%;
 }
 
 .triang_amarelo {
-  background-image: url("./img/triang_amarelo.svg");
+  background-image: url("./img/triang_amarelo.png");
   background-repeat: no-repeat;
   background-position: right;
-  width: 33% !important;
-  height: 150px;
+  width: 35% !important;
+  height: 30vh;
   float: right !important;
+  background-size: 40%;
+  margin-top: -3%;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
   width: auto;
 }
 
-/* Clear floats after image containers */
 .div-box::after {
   content: "";
   clear: both;
   display: table;
+}
+
+ul.progress-bar {
+  height: 60%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+ul.progress-bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5px;
+  background-color: #bcaeac;
+  width: 5px;
+  height: 100vh;
+}
+
+ul.progress-bar li {
+  background-color: #000;
+  border-radius: 100px;
+  width: 15px;
+  height: 15px;
+  z-index: 1;
+  position: relative;
+}
+
+ul.progress-bar li.stop ~ li {
+  background-color: #bcaeac;
+}
+
+ul.progress-bar li.stop ~ li::after {
+  height: 0;
+}
+
+ul.progress-bar li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  background-color: #000;
+  width: 5px;
+  height: 100vh;
+}
+
+@media (min-width: 1011px) and (max-width: 1225px) {
+  .rect_amarelo {
+    background-image: url("./img/rect_amarelo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 32% !important;
+    height: 34vh;
+    background-size: 42%;
+    margin-top: -3%;
+  }
+  .triang_amarelo {
+    background-image: url("./img/triang_amarelo.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 35% !important;
+    height: 30vh;
+    float: right !important;
+    background-size: 50%;
+    margin-top: -2%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1010px) {
+  .rect_amarelo {
+    background-image: url("./img/rect_amarelo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 32% !important;
+    height: 32vh;
+    background-size: 49%;
+    margin-top: -6%;
+  }
+  .triang_amarelo {
+    background-image: url("./img/triang_amarelo.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 35% !important;
+    height: 32vh;
+    float: right !important;
+    background-size: 60%;
+    margin-top: -4%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-sm {
+    max-width: 540px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .div-title-3 {
+    display: inline-block;
+    width: auto;
+    padding: 1.6% 4% 0 5%;
+    background-image: url("./img/titulonossaequipe.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 3%;
+  }
+  .d-flex-md {
+    display: flex !important;
+  }
+  .justify-content-center-md {
+    justify-content: center !important;
+  }
+  .m-t-5p-md {
+    margin-top: 5%;
+  }
+  .p-1p-sm {
+    padding: 1%;
+  }
+  ul.progress-bar {
+    height: 40%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 575px) {
+  .div-title-1 {
+    display: inline-block;
+    width: auto;
+    padding: 1.5% 4% 0 5%;
+    background-image: url("./img/titulooqe.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 3%;
+  }
+  .div-title-2 {
+    display: inline-block;
+    width: auto;
+    padding: 1.6% 4% 0 5%;
+    background-image: url("./img/titulocomocomecou.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 3%;
+  }
+  .d-flex-sm {
+    display: flex !important;
+  }
+  .justify-content-center-sm {
+    justify-content: center !important;
+  }
+  .m-t-5p-sm {
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 279px) {
+  h4 {
+    font-size: 1rem !important;
+  }
+}
+
+.sobre-pesquisadores-wrapper {
+  padding-right: 2%;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  display: contents;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.pelicula {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13, 3, 24, 0.7);
+}
+
+.lg-home-wrapper {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+.attention {
+  font-family: "Bariol", sans-serif;
+  font-style: italic;
+  font-size: 3rem;
 }

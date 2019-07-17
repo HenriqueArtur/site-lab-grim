@@ -1,108 +1,91 @@
 <?php get_header(); ?>
-		<section id="page-sobre">
-			<main>
-				<!-- begin oqe -->
-				<section class="m-t-2p container">
-					<div class="div-title-1">
-						<h4 class="text-center float-left">O QUE É?</h4>
+		<section id="page-sobre" class="overflow-x-hidden">
+				
+				<section class="row">
+					
+				
+					<div class="col-lg-11 col-md-11 col-sm-11">
+						
+					
+						<!-- begin oqe -->
+						<section class="m-t-2p container">
+							<div class="div-title-1 d-flex-sm justify-content-center-sm">
+								<h4 class="text-center float-left m-t-5p-sm">O QUE É?</h4>
+							</div>
+							<p><?php echo get_theme_mod('set_oqe-texto'); ?> </p>
+						</section>
+						<!-- end oqe -->
+
+						<!-- begin comocomecou -->
+						<section class="m-t-5p container">
+							<div class="div-title-2 d-flex-sm justify-content-center-sm">
+								<h4 class="text-center float-left m-t-5p-sm">COMO COMEÇOU...</h4>
+							</div>
+
+							<p><?php echo get_theme_mod('set_como-comecou-texto'); ?> </p>
+
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. Morbi et maximus felis, nec ullamcorper lorem. Morbi sit amet augue vehicula, scelerisque elit nec, dapibus sapien. Duis sit amet libero venenatis, consectetur enim non, placerat leo. Cras tortor ex, tincidunt eu malesuada sed, bibendum ac ante.</p> -->
+						</section>
+						<!-- end comocomecou -->
+
+						
+
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. Morbi et maximus felis, nec ullamcorper lorem. Morbi sit amet augue vehicula, scelerisque elit nec, dapibus sapien. Duis sit amet libero venenatis, consectetur enim non, placerat leo. Cras tortor ex, tincidunt eu malesuada sed, bibendum ac ante.</p>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. Morbi et maximus felis, nec ullamcorper lorem. Morbi sit amet augue vehicula, scelerisque elit nec, dapibus sapien. Duis sit amet libero venenatis, consectetur enim non, placerat leo. Cras tortor ex, tincidunt eu malesuada sed, bibendum ac ante.</p>
-				</section>
-				<!-- end oqe -->
-
-				<!-- begin comocomecou -->
-				<section class="m-t-5p container">
-					<div class="div-title-2">
-						<h4 class="text-center float-left">COMO COMEÇOU...</h4>
+					<div class="m-t-2p col-lg-1 col-md-1 col-sm-1 d-none d-sm-block">
+						<ul class="progress-bar">
+						    <li class="stop">
+						    <li>
+						    <li>
+						    <li>
+						</ul>
 					</div>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. Morbi et maximus felis, nec ullamcorper lorem. Morbi sit amet augue vehicula, scelerisque elit nec, dapibus sapien. Duis sit amet libero venenatis, consectetur enim non, placerat leo. Cras tortor ex, tincidunt eu malesuada sed, bibendum ac ante.</p>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. Morbi et maximus felis, nec ullamcorper lorem. Morbi sit amet augue vehicula, scelerisque elit nec, dapibus sapien. Duis sit amet libero venenatis, consectetur enim non, placerat leo. Cras tortor ex, tincidunt eu malesuada sed, bibendum ac ante.</p>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. Morbi et maximus felis, nec ullamcorper lorem. Morbi sit amet augue vehicula, scelerisque elit nec, dapibus sapien. Duis sit amet libero venenatis, consectetur enim non, placerat leo. Cras tortor ex, tincidunt eu malesuada sed, bibendum ac ante.</p>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. Morbi et maximus felis, nec ullamcorper lorem. Morbi sit amet augue vehicula, scelerisque elit nec, dapibus sapien. Duis sit amet libero venenatis, consectetur enim non, placerat leo. Cras tortor ex, tincidunt eu malesuada sed, bibendum ac ante.</p>
 				</section>
-				<!-- end comocomecou -->
-
 				<!-- begin equipe -->
-				<section class="m-t-5p">
-					<div class="div-box">
-						<div class="column rect_amarelo"></div>
+				<section class="m-t-5p m-b-5p container-sm">
+					<div class="div-box d-flex-sm justify-content-center-sm">
+						<div class="column rect_amarelo d-none d-md-block d-lg-block"></div>
 						<div class="column div-title-3 align-center">
-							<h4 class="text-center float-left">NOSSA EQUIPE</h4>
+							<h4 class="text-center float-left  align-items-md-center align-items-xs-center align-items-sm-center m-t-5p-sm">NOSSA EQUIPE</h4>
 						</div>
-						<div class="column triang_amarelo"></div>
+						<div class="column triang_amarelo d-none d-md-block d-lg-block"></div>
 					</div>
 					
 
 	                <ul class="nav align-center w-100 m-t-5p">
-	                    <li class="inline-block p-r-1p">
-	                        <button class="navbar-button-active">PESQUISADORES SÊNIORS</button>
+	                    <li class="inline-block p-r-1p p-1p-sm">
+	                        <button class="navbar-button-active" id='pesquisador-senior-button'>PESQUISADORES SÊNIORS</button>
 	                    </li>
-	                    <li class="inline-block p-r-1p">
-	                        <button class="navbar-button">PESQUISADORES VOLUNTÁRIOS</button>
+	                    <li class="inline-block p-r-1p p-1p-sm">
+	                        <button class="navbar-button" id='pesquisador-voluntario-button'>PESQUISADORES VOLUNTÁRIOS</button>
 	                    </li>
-	                    <li class="inline-block p-r-1p">
-	                        <button class="navbar-button">PESQUISADORES ANTERIORES</button>
+	                    <li class="inline-block p-r-1p p-1p-sm">
+	                        <button class="navbar-button" id='pesquisador-anterior-button'>PESQUISADORES ANTERIORES</button>
 	                    </li>
-	                    <li class="inline-block p-r-1p">
-	                        <button class="navbar-button">BOLSISTAS ATUAIS</button>
+	                    <li class="inline-block p-r-1p p-1p-sm">
+	                        <button class="navbar-button" id='bolsista-atual-button'>BOLSISTAS ATUAIS</button>
 	                    </li>
-	                    <li class="inline-block p-r-1p">
-	                        <button class="navbar-button">BOLSISTAS ANTERIORES</button>
-	                    </li>
-	                </ul>
-
-	                <ul class="nav align-center w-100 m-t-5p">
-	                    <li class="inline-block text-center text-box">
-							<div class="image-cropper">
-								<img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="avatar" class="profile-pic">
-							</div>
-
-							<b class="nome">Fulano da Silva</b>
-							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. </p>
-							<a href="#" class="link">- Link lattes -</a>
-	                    </li>
-	                    <li class="inline-block text-center text-box">
-	                        <div class="image-cropper">
-	                        	<img src="https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="avatar" class="profile-pic">
-							</div>
-
-	                        <b class="nome">Fulano da Silva</b>
-							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. </p>
-							<a href="#" class="link">- Link lattes -</a>
-	                    </li>
-	                    <li class="inline-block text-center text-box">
-	                        <div class="image-cropper">
-	                        	<img src="https://images.pexels.com/photos/718978/pexels-photo-718978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="avatar" class="profile-pic">
-							</div>
-
-	                        <b class="nome">Fulano da Silva</b>
-							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. </p>
-							<a href="#" class="link">- Link lattes -</a>
-	                    </li>
-
-	                    <li class="inline-block text-center text-box">
-	                        <div class="image-cropper">
-	                        	<img src="https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="avatar" class="profile-pic">
-							</div>
-
-	                        <b class="nome">Fulano da Silva</b>
-							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. </p>
-							<a href="#" class="link">- Link lattes -</a>
+	                    <li class="inline-block p-r-1p p-1p-sm">
+	                        <button class="navbar-button" id='bolsista-anterior-button'>BOLSISTAS ANTERIORES</button>
 	                    </li>
 	                </ul>
 
-	                
+	                <ul class="nav w-100 m-t-5p m-b-5p table-pesquisadores">
+	                	<?php 
+	                		if( is_active_sidebar('page-sobre') ):
+	                			dynamic_sidebar('page-sobre');
+	                		else: ?>
+	                		<div class="container">
+								<div class="row m-b-5p">
+									<h2 class="attention col-12 text-center">Adicione o Widget "Pesquisador Info" na barra "Sobre" que se localiza em PAINEL > APARÊNCIA > WIDGETS.</h2>
+								</div>
+							</div>
+						<?php
+							endif;
+						?>
 
+	                </ul>
 
 				</section>
 				<!-- end equipe -->
-
-			</main>
 		</section>
 <?php get_footer(); ?>
