@@ -12,7 +12,7 @@
 							<div class="div-title-1 d-flex-sm justify-content-center-sm">
 								<h4 class="text-center float-left m-t-5p-sm">O QUE É?</h4>
 							</div>
-							<p><?php echo get_theme_mod('set_oqe-texto'); ?> </p>
+							<p class="m-t-1p"><?php echo get_theme_mod('set_oqe-texto'); ?> </p>
 						</section>
 						<!-- end oqe -->
 
@@ -22,7 +22,7 @@
 								<h4 class="text-center float-left m-t-5p-sm">COMO COMEÇOU...</h4>
 							</div>
 
-							<p><?php echo get_theme_mod('set_como-comecou-texto'); ?> </p>
+							<p class="m-t-1p"><?php echo get_theme_mod('set_oqe-texto'); ?> </p>
 
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. Morbi et maximus felis, nec ullamcorper lorem. Morbi sit amet augue vehicula, scelerisque elit nec, dapibus sapien. Duis sit amet libero venenatis, consectetur enim non, placerat leo. Cras tortor ex, tincidunt eu malesuada sed, bibendum ac ante.</p> -->
 						</section>
@@ -51,7 +51,7 @@
 					</div>
 					
 
-	                <ul class="nav align-center w-100 m-t-5p">
+	                <ul class="nav align-center w-100 m-t-3p">
 	                    <li class="inline-block p-r-1p p-1p-sm">
 	                        <button class="navbar-button-active" id='pesquisador-senior-button'>PESQUISADORES SÊNIORS</button>
 	                    </li>
