@@ -11,10 +11,11 @@ function load_scripts() {
 	wp_enqueue_style( 'style', get_stylesheet_directory_uri() . '/style.css' );
 	
 	// Funções JS
+	wp_enqueue_script( 'responsiveHome', get_stylesheet_directory_uri() . '/js/responsiveHome.js', array(), '1.0', true );
 	wp_enqueue_script( 'responsiveHeader', get_stylesheet_directory_uri() . '/js/responsiveHeader.js', array(), '1.0', true );
 	wp_enqueue_script( 'responsiveFooter', get_stylesheet_directory_uri() . '/js/responsiveFooter.js', array(), '1.0', true );
 	wp_enqueue_script( 'sandwichMenu', get_stylesheet_directory_uri() . '/js/sandwichMenu.js', array(), '1.0', true );
-	
+
 	// Script Principal
 	wp_enqueue_script( 'scripts', get_stylesheet_directory_uri() . '/js/scripts.js', array(), '1.0', true );
 

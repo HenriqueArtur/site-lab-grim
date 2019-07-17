@@ -214,14 +214,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #0D0318;
 }
 
-.pelicula {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(13, 3, 24, 0.7);
-}
-
 .lg-home-wrapper {
   position: fixed;
   width: 100%;
@@ -229,8 +221,146 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -1;
 }
 
+.lg-home-wrapper .div-logo-img {
+  height: 100vh !important;
+  width: 100vw !important;
+  padding: 3rem;
+  display: flex;
+}
+
+.lg-home-wrapper .div-logo-img .logo-home {
+  margin: auto;
+  z-index: 100;
+}
+
+.lg-home-wrapper .pelicula {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13, 3, 24, 0.7);
+}
+
+.lg-home-wrapper .animete-objects {
+  height: 100vh !important;
+  width: 100vw !important;
+  padding: 1.6rem;
+  display: flex;
+  position: fixed;
+}
+
+.lg-home-wrapper .animete-objects .misc-home:hover {
+  transform: rotate3d(0.2, 0.2, 0, 12deg);
+}
+
+.lg-home-wrapper .animete-objects .misc-home {
+  margin: auto;
+  z-index: 99;
+  height: 19rem;
+  width: 50rem;
+  position: relative;
+  transform: rotate3d(0, 0, 0, 0deg);
+  transition: rotate3d 1000ms ease-out;
+}
+
+.lg-home-wrapper .animete-objects .misc-home .cruz {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  height: 4.5rem;
+  /*animation-name: cruz-animate;
+				animation-duration: 4s;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+				animation-timing-function: ease-in-out;*/
+}
+
+.lg-home-wrapper .animete-objects .misc-home .triangulo {
+  position: absolute;
+  top: 2rem;
+  right: 0rem;
+  height: 3rem;
+  /*animation-name: triangulo-animate;
+				animation-duration: 4s;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+				animation-timing-function: ease-in-out;*/
+}
+
+.lg-home-wrapper .animete-objects .misc-home .circulo {
+  position: absolute;
+  bottom: 0rem;
+  left: 3rem;
+  height: 3rem;
+}
+
+.lg-home-wrapper .animete-objects .misc-home .circulo .circ-1 {
+  /*animation-name: circle-animate;
+    				animation-duration: 4s;
+    				animation-iteration-count: infinite;
+    				animation-direction: alternate;
+    				animation-timing-function: ease-out;*/
+}
+
+.lg-home-wrapper .animete-objects .misc-home .trema {
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+  height: 6rem;
+  /*animation-name: trema-animate;
+				animation-duration: 4s;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;*/
+}
+
+.lg-home-wrapper #home-banner video {
+  z-index: -100 !important;
+  position: fixed;
+}
+
 .attention {
   font-family: "Bariol", sans-serif;
   font-style: italic;
   font-size: 3rem;
 }
+
+/*@keyframes cruz-animate {
+	0% { transform: translateX(3rem) rotate(360deg); }
+
+  	25% { transform: translateX(0rem) rotate(0deg); }
+
+  	100% { transform: translateX(0rem) rotate(0deg); }
+}
+
+@keyframes triangulo-animate {
+	0% { transform: translateY(5rem) rotateY(720deg); }
+
+  	25% { transform: translateY(0rem) rotate(0deg); }
+
+  	100% { transform: translateY(0rem) rotate(0deg); }
+}
+
+@keyframes circle-animate {
+  	0% { transform: scale(0) translate(1.2rem, 2rem); }
+
+  	25% { transform: scale(1) translate(0, 0); }
+
+  	100% { transform: scale(1) translate(0, 0); }
+}
+
+
+@keyframes trema-animate {
+	0% { transform: rotate(0deg); }
+	10% { transform: rotate(0deg); }
+
+	14% { transform: rotate(0deg); }
+	15% { transform: rotate(75deg); }
+
+	19% { transform: rotate(75deg); }
+	20% { transform: rotate(150deg); }
+
+	24% { transform: rotate(150deg); }
+  	25% { transform: rotate(0deg); }
+
+  	100% { transform: rotate(0deg); }
+}*/
