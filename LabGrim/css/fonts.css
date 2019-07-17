@@ -1,12 +1,16 @@
 @font-face {
+<<<<<<< HEAD
     font-family: BariolRegular;
+=======
+    font-family: Bariol-regular;
+>>>>>>> 46520c94d436a13b2c3d32da90af7214615c3178
     src: url(./fonts/BARIOL_REGULAR.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: Bariol;
+    font-family: Bariol-regular;
     src: url(./fonts/BARIOL_REGULAR_ITALIC.ttf) format('truetype');
     font-weight: normal;
     font-style: italic;

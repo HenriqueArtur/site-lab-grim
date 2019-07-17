@@ -8,7 +8,6 @@ function responsiveHeader() {
     var socialIcons = document.getElementById( "my-social-media-icons" );
 
     var width = window.innerWidth;
-    var height = window.innerHeight;
 
     var cont = 0;
 

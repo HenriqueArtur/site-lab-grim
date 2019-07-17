@@ -194,7 +194,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .lg-footer .lg-address {
   color: #FFFFFF;
+<<<<<<< HEAD
   font-family: "BariolRegular", sans-serif;
+=======
+  font-family: "Bariol-regular", sans-serif;
+>>>>>>> 46520c94d436a13b2c3d32da90af7214615c3178
   font-weight: normal;
   font-style: normal;
   font-size: 1.3rem;
@@ -213,6 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 .notHome {
   background-color: #0D0318;
 }
+<<<<<<< HEAD
 
 p {
   text-align: justify;
@@ -582,3 +587,5 @@ ul.progress-bar li::after {
   font-style: italic;
   font-size: 3rem;
 }
+=======
+>>>>>>> 46520c94d436a13b2c3d32da90af7214615c3178
