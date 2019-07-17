@@ -64,7 +64,6 @@ function labgrim_sidebars() {
 			'after_title'      => '</h2>'
 		)
 	);
-
 	register_sidebar(
 		array(
 			'name'             => 'Sobre',

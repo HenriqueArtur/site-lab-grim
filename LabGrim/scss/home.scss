@@ -1,0 +1,20 @@
+.pelicula {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+    background-color: rgba( 13, 3, 24, 0.7 );
+}
+
+.lg-home-wrapper {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.attention {
+	font-family: "Bariol", sans-serif;
+	font-style: italic;
+	font-size: 3rem;
+}
