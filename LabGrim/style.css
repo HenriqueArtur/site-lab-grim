@@ -374,6 +374,10 @@ p {
   width: auto;
 }
 
+.left-float {
+  float: left;
+}
+
 .div-box::after {
   content: "";
   clear: both;
@@ -536,6 +540,17 @@ ul.progress-bar li::after {
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 3%;
+  }
+  .div-title-3 {
+    display: inline-block;
+    width: 100%;
+    padding: 1.6% 4% 0 5%;
+    background-image: url("./img/titulonossaequipe.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .center-sm {
+    float: initial !important;
   }
   .d-flex-sm {
     display: flex !important;
