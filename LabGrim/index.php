@@ -7,7 +7,7 @@
 					else: ?>
 						<div class="container">
 							<div class="row">
-								<h2 class="attention col-12 text-center">Adicione o Widget "Lab Grim Home" na Barra "Home" que se localiza em PAINEL > APARÊNCIA > WIDGETS.</h2>
+								<h2 class="attention col-12 text-center">Adicione o Widget ".Lab Grim Home" na Barra "Home" que se localiza em PAINEL > APARÊNCIA > WIDGETS.</h2>
 							</div>
 						</div>
 				<?php

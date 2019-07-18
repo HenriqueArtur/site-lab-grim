@@ -10,7 +10,7 @@
             'classname'   => 'home-banner-widget',
             'description' => 'Widget para o banner principal da página inicial.'
         );
-        parent::__construct( 'home-banner-widget', 'Home Banner', $widget_ops );
+        parent::__construct( 'home-banner-widget', '.Lab Grim Home', $widget_ops );
     }
 
     // Metodo que cria o html na pagina
