@@ -245,6 +245,12 @@ ul.progress-bar li::after {
 }
 
 
+@media (min-width: 991px) {
+	.m-t-n-5p-lg {
+		margin-top: -5% !important;
+	}
+}
+
 @media (min-width: 767px) and (max-width: 1010px) {
 	.rect_amarelo {
 		background-image: url("./img/rect_amarelo.png");
@@ -286,8 +292,20 @@ ul.progress-bar li::after {
 		float: initial;
 	}
 
+	.m-t-10p-md {
+    	margin-top: 10%;
+	}	
+
+    .m-t-5p-md {
+    	margin-top: 5%;
+	}
+
 	.m-t-3p-md {
 		margin-top: 3%;
+	}
+
+	.m-t-n-5p-md {
+		margin-top: -5% !important;
 	}
 }
 
@@ -303,12 +321,17 @@ ul.progress-bar li::after {
 
 	.div-title-3 {
 		display: inline-block;
-		width: auto;
+		width: 80% !important;
 		padding: 1.6% 4% 0 5%;
+		padding-right: 4%;
+		padding-left: 5%;
 		background-image: url("./img/titulonossaequipe.svg");
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: 50% 0%;
+		background-position-x: 50%;
+		background-position-y: 0%;
 		margin-bottom: 3%;
+		background-size: 50%;
 	}
 
 	.d-flex-md {
@@ -317,12 +340,11 @@ ul.progress-bar li::after {
 
 	.justify-content-center-md {
     	justify-content: center !important;
-    }	
+    }		
 
-    .m-t-5p-md {
-    	margin-top: 5%;
-
-	}	
+	.m-t-1p-sm {
+		margin-top: 1%;
+	}
 
 	.p-1p-sm {
 		padding: 1%;
@@ -339,6 +361,10 @@ ul.progress-bar li::after {
 		justify-content: space-between;
 		overflow: hidden;
 		background-color: transparent;
+	}
+
+	.float-center-sm {
+		float: initial;
 	}
 }
 
@@ -367,11 +393,12 @@ ul.progress-bar li::after {
 
 	.div-title-3 {
 		display: inline-block;
-		width: 100%;
+		width: 100% !important;
 		padding: 1.6% 4% 0 5%;
 		background-image: url("./img/titulonossaequipe.svg");
 		background-repeat: no-repeat;
 		background-position: center;
+		background-size: 80%;
 	}
 
 	.center-sm {
@@ -386,14 +413,18 @@ ul.progress-bar li::after {
     	justify-content: center !important;
     }
 
-    .m-t-5p-sm {
+    .m-t-5p-xs {
     	margin-top: 5%;
+    }
+
+    .m-t-3p-xs {
+    	margin-top: 3%;
     }
 }
 
-@media (max-width: 279px) {
+@media (max-width: 300px) {
 	h4 {
-		font-size: 1rem !important;
+		font-size: 1.2rem !important;
 	}
 }
 

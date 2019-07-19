@@ -4,7 +4,7 @@
 			<!-- begin oqe -->
 			<section class="m-t-2p container">
 				<div class="div-title-1 d-flex-sm justify-content-center-sm">
-					<h4 class="text-center left-float m-t-5p-sm">O QUE É?</h4>
+					<h4 class="text-center left-float m-t-5p-xs m-t-1p-sm">O QUE É?</h4>
 				</div>
 				<p class="m-t-1p"><?php echo get_theme_mod('set_oqe-texto'); ?> </p>
 			</section>
@@ -13,7 +13,7 @@
 			<!-- begin comocomecou -->
 			<section class="m-t-5p container">
 				<div class="div-title-2 d-flex-sm justify-content-center-sm">
-					<h4 class="text-center left-float m-t-5p-sm">COMO COMEÇOU...</h4>
+					<h4 class="text-center left-float m-t-5p-xs m-t-1p-sm">COMO COMEÇOU...</h4>
 				</div>
 
 				<p class="m-t-1p"><?php echo get_theme_mod('set_oqe-texto'); ?> </p>
@@ -26,14 +26,14 @@
 			<section class="m-t-5p m-b-5p container-sm">
 				<div class="row d-flex-sm justify-content-center-sm">
 					<div class="col-lg-4 col-md-4 column rect_amarelo d-none d-md-block d-lg-block"></div>
-					<div class="col-lg-4 col-md-4 column div-title-3 align-center m-t-3p-md">
-						<h4 class="text-center left-float center-sm float-center-md align-items-md-center align-items-xs-center align-items-sm-center m-t-5p-sm">NOSSA EQUIPE</h4>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 column div-title-3 align-center m-t-10p-md">
+						<h4 class="text-center left-float center-sm float-center-md float-center-sm align-items-md-center align-items-xs-center align-items-sm-center m-t-5p-xs m-t-1p-sm">NOSSA EQUIPE</h4>
 					</div>
 					<div class="col-lg-4 col-md-4 column triang_amarelo d-none d-md-block d-lg-block"></div>
 				</div>
 				
 
-                <ul class="nav align-center w-100 m-t-3p">
+                <ul class="nav align-center w-100 m-t-3p m-t-n-5p-md m-t-n-5p-lg">
                     <li class="inline-block p-r-1p p-1p-sm">
                         <button class="navbar-button-active" id='pesquisador-senior-button'>PESQUISADORES SÊNIORS</button>
                     </li>
