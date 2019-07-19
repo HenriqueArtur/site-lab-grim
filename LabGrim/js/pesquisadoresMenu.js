@@ -19,9 +19,6 @@ jQuery(function($){
         $("#bolsista-atual-button").removeClass("navbar-button-active").addClass("navbar-button");
         $("#bolsista-anterior-button").removeClass("navbar-button-active").addClass("navbar-button");
     });
-});
-
-jQuery(function($){
 
     $("#pesquisador-voluntario-button").on('click', function(evt){
         $('.pesquisador-senior').hide(); 
@@ -30,8 +27,8 @@ jQuery(function($){
         $('.bolsista-atual').hide(); 
         $('.bolsista-anterior').hide(); 
 
+        $("#pesquisador-senior-button").removeClass("navbar-button-active").addClass("navbar-button");
         $("#pesquisador-voluntario-button").removeClass("navbar-button").addClass("navbar-button-active");
-        $("#pesquisador-voluntario-button").removeClass("navbar-button-active").addClass("navbar-button");
         $("#pesquisador-anterior-button").removeClass("navbar-button-active").addClass("navbar-button");
         $("#bolsista-atual-button").removeClass("navbar-button-active").addClass("navbar-button");
         $("#bolsista-anterior-button").removeClass("navbar-button-active").addClass("navbar-button");

@@ -43,4 +43,25 @@ jQuery(document).ready(function ($) {
 
     file_frame.open();
   });
+
+  // Evento de click no botão para fazer upload do icon do pesquisador.
+  $(document).on("click", ".upload_icon_button", function (e) {
+    e.preventDefault();
+    var $button = $(this);
+
+    var file_frame = wp.media.frames.file_frame = wp.media({
+      title: 'Escolha ou envie uma logo',
+      library: { type: 'image' },
+      button: { text: 'Select' },
+      multiple: false
+    });
+
+    file_frame.on('select', function (e) {
+      var attachment = file_frame.state().get('selection').first().toJSON();
+      $button.siblings('input').val(attachment.url);
+      $button.siblings('input').trigger('change'); 
+    });
+
+    file_frame.open();
+  });
 });
