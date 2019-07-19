@@ -33,7 +33,7 @@
 				</div>
 				
 
-                <ul class="nav align-center w-100 m-t-3p m-t-n-5p-md m-t-n-5p-lg">
+                <ul class="nav align-center w-100 m-t-3p">
                     <li class="inline-block p-r-1p p-1p-sm">
                         <button class="navbar-button-active" id='pesquisador-senior-button'>PESQUISADORES SÊNIORS</button>
                     </li>

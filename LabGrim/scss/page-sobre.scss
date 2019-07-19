@@ -245,7 +245,11 @@ ul.progress-bar li::after {
 }
 
 
-@media (min-width: 991px) {
+@media (min-width: 1300px) {
+	.m-t-n-3p-lg {
+		margin-top: -3% !important;
+	}
+
 	.m-t-n-5p-lg {
 		margin-top: -5% !important;
 	}
