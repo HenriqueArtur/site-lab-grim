@@ -24,16 +24,16 @@
 			
 			<!-- begin equipe -->
 			<section class="m-t-5p m-b-5p container-sm">
-				<div class="div-box d-flex-sm justify-content-center-sm">
-					<div class="column rect_amarelo d-none d-md-block d-lg-block"></div>
-					<div class="column div-title-3 align-center">
-						<h4 class="text-center left-float center-sm align-items-md-center align-items-xs-center align-items-sm-center m-t-5p-sm">NOSSA EQUIPE</h4>
+				<div class="row d-flex-sm justify-content-center-sm">
+					<div class="col-lg-4 col-md-4 column rect_amarelo d-none d-md-block d-lg-block"></div>
+					<div class="col-lg-4 col-md-4 column div-title-3 align-center m-t-3p-md">
+						<h4 class="text-center left-float center-sm float-center-md align-items-md-center align-items-xs-center align-items-sm-center m-t-5p-sm">NOSSA EQUIPE</h4>
 					</div>
-					<div class="column triang_amarelo d-none d-md-block d-lg-block"></div>
+					<div class="col-lg-4 col-md-4 column triang_amarelo d-none d-md-block d-lg-block"></div>
 				</div>
 				
 
-                <ul class="nav align-center w-100">
+                <ul class="nav align-center w-100 m-t-3p">
                     <li class="inline-block p-r-1p p-1p-sm">
                         <button class="navbar-button-active" id='pesquisador-senior-button'>PESQUISADORES SÊNIORS</button>
                     </li>
