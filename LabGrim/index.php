@@ -1,17 +1,18 @@
 <?php get_header(); ?>
-		<section id="home" class="container">
+		<section id="home">
 			<main>
-				<p>oiiiieee</p>
-				<section class="bg-home"></section>
-				<section class="bg-logo"></section>
-				<section>
-					<div class="home-info"></div>
-					<div class="orgs-log">
-						<div></div>
-						<div></div>
-						<div></div>
-					</div>
-				</section>
+				<?php
+					if ( is_active_sidebar( 'home-pag' ) ):
+						dynamic_sidebar( 'home-pag' );
+					else: ?>
+						<div class="container">
+							<div class="row">
+								<h2 class="attention col-12 text-center">Adicione o Widget "Lab Grim Home" na Barra "Home" que se localiza em PAINEL > APARÊNCIA > WIDGETS.</h2>
+							</div>
+						</div>
+				<?php
+					endif;
+				?>
 			</main> <!-- end main -->
 		</section> <!-- end content-area -->
 <?php get_footer(); ?>

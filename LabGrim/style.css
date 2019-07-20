@@ -15,7 +15,7 @@
 /* PADDING */
 /* DEFAULT */
 body {
-  font-family: "Lovelo", Arial, sans-serif;
+  font-family: "LoveloBlack", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1.0rem;
@@ -24,7 +24,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "LoveloLine", sans-serif;
+  font-family: "LoveloLineBold", sans-serif;
   font-weight: normal;
   color: #000000;
 }
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .top-bar .nav-logo .nav-logo-title {
   color: #FFFFFF;
-  font-family: "LoveloLine", sans-serif;
+  font-family: "LoveloLineBold", sans-serif;
   font-weight: bold;
   font-size: 24px;
 }
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-bar .space-in-mobile .mobile-menu .pags-bar-mobile ul li {
-  font-family: "Lovelo", sans-serif;
+  font-family: "LoveloBlack", sans-serif;
   font-weight: normal;
   font-size: 1rem;
   display: block;
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-bar .pags-bar ul li {
-  font-family: "Lovelo", sans-serif;
+  font-family: "LoveloBlack", sans-serif;
   font-weight: normal;
   font-size: 1rem;
   display: inline;
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .lg-footer .lg-address {
   color: #FFFFFF;
-  font-family: "Bariol-regular", sans-serif;
+  font-family: "BariolRegular", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1.3rem;
@@ -212,4 +212,444 @@ h1, h2, h3, h4, h5, h6 {
 
 .notHome {
   background-color: #0D0318;
+}
+
+p {
+  text-align: justify;
+  font-family: "BariolRegular", sans-serif;
+}
+
+.p-2p {
+  padding: 2%;
+}
+
+.p-r-1p {
+  padding-right: 1%;
+}
+
+.m-t-1p {
+  margin-top: 1%;
+}
+
+.m-t-2p {
+  margin-top: 2%;
+}
+
+.m-t-3p {
+  margin-top: 3% !important;
+}
+
+.m-t-5p {
+  margin-top: 5% !important;
+}
+
+.m-b-5p {
+  margin-bottom: 5%;
+}
+
+.div-title-1 {
+  display: inline-block;
+  width: auto;
+  padding: 1.5% 4% 0 5%;
+  background-image: url("./img/titulooqe.svg");
+  background-repeat: no-repeat;
+}
+
+.div-title-2 {
+  display: inline-block;
+  width: auto;
+  padding: 1.6% 4% 0 5%;
+  background-image: url("./img/titulocomocomecou.svg");
+  background-repeat: no-repeat;
+}
+
+.div-title-3 {
+  display: inline-block;
+  width: auto;
+  padding: 1.6% 4% 0 5%;
+  background-image: url("./img/titulonossaequipe.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.navbar-button {
+  font-family: "LoveloBlack", sans-serif;
+  font-size: 13px;
+  background-color: #C1C1C1;
+  border: none;
+  color: #0D0318;
+  height: 55px;
+  width: 115px;
+}
+
+.navbar-button-active {
+  font-family: "LoveloBlack", sans-serif;
+  font-size: 13px;
+  background-color: #0d0318;
+  border: none;
+  color: #FFFFFF;
+  height: 55px;
+  width: 115px;
+}
+
+.navbar-button:hover {
+  background-color: #A0A0A0;
+}
+
+.image-cropper {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 2%;
+  background-image: url("./img/circle.svg");
+}
+
+.profile-pic {
+  display: inline;
+  margin-top: -25%;
+  margin-left: -25%;
+  width: 200px;
+  padding: 25%;
+  position: relative;
+  z-index: -1;
+}
+
+.table-pesquisadores {
+  display: table !important;
+  text-align: center;
+}
+
+.text-box {
+  width: 130px;
+  margin-right: 2%;
+  vertical-align: top;
+}
+
+.link {
+  font-family: "BariolRegular", sans-serif;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.nome {
+  font-family: "BariolRegular", sans-serif;
+}
+
+.rect_amarelo {
+  background-image: url("./img/rect_amarelo.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 38% !important;
+  height: 30vh;
+  background-size: 30%;
+  margin-top: -4%;
+}
+
+.triang_amarelo {
+  background-image: url("./img/triang_amarelo.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 35% !important;
+  height: 30vh;
+  float: right !important;
+  background-size: 40%;
+  margin-top: -3%;
+}
+
+.column {
+  float: left;
+  width: auto;
+}
+
+.left-float {
+  float: left;
+}
+
+.div-box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul.progress-bar {
+  height: 60%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+ul.progress-bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5px;
+  background-color: #bcaeac;
+  width: 5px;
+  height: 100vh;
+}
+
+ul.progress-bar li {
+  background-color: #000;
+  border-radius: 100px;
+  width: 15px;
+  height: 15px;
+  z-index: 1;
+  position: relative;
+}
+
+ul.progress-bar li.stop ~ li {
+  background-color: #bcaeac;
+}
+
+ul.progress-bar li.stop ~ li::after {
+  height: 0;
+}
+
+ul.progress-bar li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  background-color: #000;
+  width: 5px;
+  height: 100vh;
+}
+
+@media (min-width: 1011px) and (max-width: 1225px) {
+  .rect_amarelo {
+    background-image: url("./img/rect_amarelo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 32% !important;
+    height: 34vh;
+    background-size: 42%;
+    margin-top: -3%;
+  }
+  .triang_amarelo {
+    background-image: url("./img/triang_amarelo.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 35% !important;
+    height: 30vh;
+    float: right !important;
+    background-size: 50%;
+    margin-top: -2%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .m-t-n-3p-lg {
+    margin-top: -3% !important;
+  }
+  .m-t-n-5p-lg {
+    margin-top: -5% !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1010px) {
+  .rect_amarelo {
+    background-image: url("./img/rect_amarelo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 32% !important;
+    height: 32vh;
+    background-size: 49%;
+    margin-top: -6%;
+  }
+  .triang_amarelo {
+    background-image: url("./img/triang_amarelo.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 35% !important;
+    height: 32vh;
+    float: right !important;
+    background-size: 60%;
+    margin-top: -4%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .div-title-3 {
+    display: inline-block;
+    width: auto;
+    height: 50%;
+    padding: 1.6% 4% 0 5%;
+    padding-right: 4%;
+    padding-left: 5%;
+    background-image: url("./img/titulonossaequipe.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+  .float-center-md {
+    float: initial;
+  }
+  .m-t-10p-md {
+    margin-top: 10%;
+  }
+  .m-t-5p-md {
+    margin-top: 5%;
+  }
+  .m-t-3p-md {
+    margin-top: 3%;
+  }
+  .m-t-n-5p-md {
+    margin-top: -5% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-sm {
+    max-width: 540px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .div-title-3 {
+    display: inline-block;
+    width: 80% !important;
+    padding: 1.6% 4% 0 5%;
+    padding-right: 4%;
+    padding-left: 5%;
+    background-image: url("./img/titulonossaequipe.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-position-x: 50%;
+    background-position-y: 0%;
+    margin-bottom: 3%;
+    background-size: 50%;
+  }
+  .d-flex-md {
+    display: flex !important;
+  }
+  .justify-content-center-md {
+    justify-content: center !important;
+  }
+  .m-t-1p-sm {
+    margin-top: 1%;
+  }
+  .p-1p-sm {
+    padding: 1%;
+  }
+  ul.progress-bar {
+    height: 40%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  .float-center-sm {
+    float: initial;
+  }
+}
+
+@media (max-width: 575px) {
+  .div-title-1 {
+    display: inline-block;
+    width: auto;
+    padding: 1.5% 4% 0 5%;
+    background-image: url("./img/titulooqe.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 3%;
+  }
+  .div-title-2 {
+    display: inline-block;
+    width: auto;
+    padding: 1.6% 4% 0 5%;
+    background-image: url("./img/titulocomocomecou.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 3%;
+  }
+  .div-title-3 {
+    display: inline-block;
+    width: 100% !important;
+    padding: 1.6% 4% 0 5%;
+    background-image: url("./img/titulonossaequipe.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+  }
+  .center-sm {
+    float: initial !important;
+  }
+  .d-flex-sm {
+    display: flex !important;
+  }
+  .justify-content-center-sm {
+    justify-content: center !important;
+  }
+  .m-t-5p-xs {
+    margin-top: 5%;
+  }
+  .m-t-3p-xs {
+    margin-top: 3%;
+  }
+}
+
+@media (max-width: 300px) {
+  h4 {
+    font-size: 1.2rem !important;
+  }
+}
+
+.sobre-pesquisadores-wrapper {
+  padding-right: 2%;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  display: contents;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.pelicula {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13, 3, 24, 0.7);
+}
+
+.lg-home-wrapper {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+.attention {
+  font-family: "Bariol", sans-serif;
+  font-style: italic;
+  font-size: 3rem;
 }
