@@ -2,6 +2,7 @@
 // Requerendo o Customizer
 require get_template_directory() . '/customizers/customizer-footer.php';
 require get_template_directory() . '/customizers/customizer-sobre.php';
+require get_template_directory() . '/customizers/customizer-producoes.php';
 require get_template_directory() . '/widgets/widget-home.php';
 require get_template_directory() . '/widgets/widget-sobre.php';
 
