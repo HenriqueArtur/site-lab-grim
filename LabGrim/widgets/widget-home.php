@@ -25,11 +25,8 @@
         <div id="home-banner">
         	<video src="<?php echo esc_url( $banner_bg_url ); ?>" autoplay loop class="bg-video"></video>
         </div>
-        	<div class="animete-objects">
-        		<?php get_template_part( 'template-parts/misc-logo-home' ); ?>
-        	</div>
         <div class="div-logo-img">
-			<img class="logo-home img-fluid" src="<?php echo esc_url( $banner_logo_url ); ?>" alt="<?php echo $title; ?>"></img>
+			<div class="logo-home img-fluid" style="background: url(<?php echo esc_url( $banner_logo_url ); ?>) 0 0 no-repeat;" alt="<?php echo $title; ?>"></div>
     	</div>
         <?php
         echo $args['after_widget'];
