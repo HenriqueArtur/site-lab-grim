@@ -224,18 +224,8 @@ h1, h2, h3, h4, h5, h6 {
 .lg-home-wrapper .div-logo-img {
   height: 100vh !important;
   width: 100vw !important;
-  padding: 3rem;
+  padding: 1.6rem;
   display: flex;
-}
-
-.lg-home-wrapper .div-logo-img .logo-home {
-  margin: auto;
-  z-index: 100;
-  display: block;
-  width: 110px;
-  height: 110px;
-  background-size: 3000%;
-  animation: like-gif steps(28) 1s infinite both;
 }
 
 .lg-home-wrapper .pelicula {
@@ -257,11 +247,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3rem;
 }
 
-@keyframes like-gif {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 100%;
-  }
+.lg-home-wrapper .div-logo-img .logo-home {
+  margin: auto;
+  z-index: 100;
+  display: block;
 }

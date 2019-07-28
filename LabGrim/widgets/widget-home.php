@@ -26,7 +26,7 @@
         	<video src="<?php echo esc_url( $banner_bg_url ); ?>" autoplay loop class="bg-video"></video>
         </div>
         <div class="div-logo-img">
-			<div class="logo-home img-fluid" style="background: url(<?php echo esc_url( $banner_logo_url ); ?>) 0 0 no-repeat;" alt="<?php echo $title; ?>"></div>
+            <img class="logo-home img-fluid" src="<?php echo esc_url( $banner_logo_url ); ?>" alt="<?php echo $title; ?>"></img>
     	</div>
         <?php
         echo $args['after_widget'];
