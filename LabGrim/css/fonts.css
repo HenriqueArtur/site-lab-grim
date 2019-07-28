@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Bariol-regular;
+    font-family: BariolRegular;
     src: url(./fonts/BARIOL_REGULAR.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -55,14 +55,14 @@
 }
 
 @font-face {
-    font-family: Lovelo;
+    font-family: LoveloBlack;
     src: url(./fonts/Lovelo-Black.ttf) format('truetype');
     font-weight: bolder;
     font-style: normal;
 }
 
 @font-face {
-    font-family: LoveloLine;
+    font-family: LoveloLineBold;
     src: url(./fonts/Lovelo-Line-Bold.ttf) format('truetype');
     font-weight: bold;
     font-style: normal;
