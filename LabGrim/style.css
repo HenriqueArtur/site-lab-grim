@@ -644,8 +644,22 @@ p {
   color: black;
 }
 
+.text-publicacoes {
+  font-family: "LoveloBlack", sans-serif !important;
+  font-weight: normal;
+  color: black;
+}
+
+.m-t-1p {
+  margin-top: 1%;
+}
+
 .m-t-2p {
   margin-top: 2%;
+}
+
+.m-t-3p {
+  margin-top: 3%;
 }
 
 .producao-title {
@@ -752,6 +766,15 @@ p {
   background-repeat: no-repeat;
 }
 
+.publicacoes-title {
+  display: inline-block;
+  width: 13vw;
+  padding: 0.5% 4% 0 2%;
+  background-image: url("./img/subtitulo_azul.svg");
+  background-repeat: no-repeat;
+}
+
+/*****RESPONSIVIDADE******/
 @media (min-width: 768px) and (max-width: 991px) {
   .producao-title {
     width: auto;

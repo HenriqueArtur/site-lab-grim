@@ -59,5 +59,13 @@
 						</div>
 					</section>
 			<!-- end galeria -->
+
+			<!-- begin publicacoes -->
+					<section class="m-t-3p container" style="margin-bottom: 15%;">
+						<div class="publicacoes-title d-flex-sm justify-content-center-sm">
+							<h6 class="text-publicacoes left-float m-t-5p-xs m-t-1p-sm">PUBLICAÇÕES</h6>
+						</div>
+					</section>
+			<!-- end publicacoes -->
 		</section>
 <?php get_footer(); ?>
