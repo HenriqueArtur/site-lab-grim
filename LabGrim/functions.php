@@ -35,6 +35,9 @@ function labgrim_config() {
 			'my_main_menu' => 'Main Menu'
 		)
 	);
+
+	add_theme_support( 'post-thumbnails' );
+	add_theme_support( 'post-formats' );
 }
 add_action( 'after_setup_theme', 'labgrim_config', 0 );
 
@@ -76,3 +79,5 @@ function labgrim_sidebars() {
 		)
 	);
 }
+
+add_image_size( 'labgrim-thumbnail', 350, 196, array( 'center', 'center' ) );
