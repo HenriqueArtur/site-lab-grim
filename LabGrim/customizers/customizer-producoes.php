@@ -23,7 +23,7 @@
 				// aqui voce coloca o slug(ID) da secao recomendo colocar "sec_" ao inicio da slug
 				'sec_producoes', array(
 					// texto
-					'title' 				=> 'Texto descritivo da página',
+					'title' 				=> 'Texto descritivo de produções',
 				)
 			);
 
@@ -36,9 +36,7 @@
 					// Aqui diz que tipo de area o WP vai criar, sempre deixe 'theme_mod'
 					'type' 					=> 'theme_mod',
 					// Aqui define o texto padrao caso o usuario nao insira nada.
-					'default' 				=> 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. Morbi et maximus felis, nec ullamcorper lorem. Morbi sit amet augue vehicula, scelerisque elit nec, dapibus sapien. Duis sit amet libero venenatis, consectetur enim non, placerat leo. Cras tortor ex, tincidunt eu malesuada sed, bibendum ac ante.
-
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. Morbi et maximus felis, nec ullamcorper lorem. Morbi sit amet augue vehicula, scelerisque elit nec, dapibus sapien. Duis sit amet libero venenatis, consectetur enim non, placerat leo. Cras tortor ex, tincidunt eu malesuada sed, bibendum ac ante.',
+					'default' 				=> 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. Morbi et maximus felis, nec ullamcorper lorem. Morbi sit amet augue vehicula, scelerisque elit nec, dapibus sapien. Duis sit amet libero venenatis, consectetur enim non, placerat leo. Cras tortor ex, tincidunt eu malesuada sed, bibendum ac ante.',
 					// Aqui é o filtro de texto do proprio WP
 					// Nao mexa aqui
 					'sanitize_callback' 	=> 'esc_textarea'
@@ -50,13 +48,14 @@
 				// Aqui voce passa SLUG que crio no SETTING do texto
 				'set_producoes-texto', array(
 					// Titulo que vai encima da caixa de texto
-					'label' 				=> 'Texto descritivo da página',
+					'label' 				=> 'Texto descritivo de produções',
 					// Aqui deve coloca a SLUG de SECAO no caso sec_pesquisador_senior_2
 					'section'				=> 'sec_producoes',
 					// aqui é o tipo de area vai aparece no painel WP, no caso é um textarea
 					'type'					=> 'textarea'
 				)
 			);
+
 	}
 
 	// Aqui voce adiciona a funcao acima ao GANCHO de carregamento do WP
