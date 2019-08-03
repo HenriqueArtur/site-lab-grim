@@ -3,7 +3,7 @@
 				$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
 				$host_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}";
 			?>
-			<section class="lg-footer fixed-bottom<?php if ( $actual_link != $host_link . "/lab-grim/" ): echo " notHome"; else: ""; endif; ?>">
+			<section class="lg-footer<?php if ( $actual_link != $host_link . "/lab-grim/" ): echo " notHome"; else: echo " fixed-bottom"; endif; ?>">
 				<div class="container">
 					<div class="row">
 						<div class="lg-address col-lg-6 col-md-12 text-left">
