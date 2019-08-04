@@ -4,8 +4,9 @@
 			<div class="container">
 
 				<div class="row">
-					<div class="col-12">
-						<h2>NOTÍCIAS</h2>
+					<div class="page-title col-12 d-flex justify-content-center text-center">
+						<div class="title-bg-points"></div>
+						<h2 class="col-3">NOTÍCIAS</h2>
 					</div>
 				</div>
 

@@ -1,10 +1,8 @@
-@charset "UTF-8";
 /**
  * Theme Name: Lab Grim
  * Author: Media Day
  * Author URI: 
- * Description: Tema desenvolvido por Gabriely Rodrigues, Henrique Artur e João () para o site do Lab Grim
- * Template: -
+ * Description: Tema desenvolvido por Gabriely Rodrigues e Henrique Artur para o site do Lab Grim
  * Version: 1.0
  * Text Domain: labgrim
  */
@@ -652,4 +650,93 @@ ul.progress-bar li::after {
   font-family: "Bariol", sans-serif;
   font-style: italic;
   font-size: 3rem;
+}
+
+#noticias .page-title {
+  margin: 2.6rem 0 1.6rem;
+}
+
+#noticias .page-title .title-bg-points {
+  background-image: url("./img/pattern_balls.svg");
+  position: absolute;
+  height: 3rem;
+  width: 18rem;
+  z-index: -1;
+  transform: translate(-0.2rem, -0.4rem);
+}
+
+#noticias .page-title h2 {
+  background-color: gold;
+  padding: 0.8rem 0rem 0;
+}
+
+#noticias .post {
+  margin: 2rem auto;
+}
+
+#noticias .post .post-thumbnail-rect {
+  height: 12.4rem;
+  width: 22rem;
+  position: absolute;
+  right: 23px;
+  bottom: 9px;
+  z-index: -1;
+}
+
+#noticias .post .tumb-post {
+  border: 2px solid black;
+}
+
+#noticias .post .post-content .post-title-area .post-category {
+  text-transform: uppercase;
+  color: #707070;
+  font-family: "Bariol", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+#noticias .post .post-content .post-title-area .post-category a, #noticias .post .post-content .post-title-area .post-category a:hover, #noticias .post .post-content .post-title-area .post-category a:active {
+  color: #707070;
+  text-decoration: none;
+}
+
+#noticias .post .post-content .post-title-area .post-title {
+  color: #0D0318;
+  font-family: "Bariol", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+#noticias .post .post-content p {
+  color: #000;
+  font-family: "BariolRegular", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+#noticias .post .post-content .post-link-rect {
+  height: 2.3rem;
+  width: 11.4rem;
+  position: absolute;
+  right: 20px;
+  bottom: 22px;
+  z-index: -1;
+}
+
+#noticias .post .post-content .post-link {
+  text-transform: uppercase;
+  font-family: "LoveloBlack", sans-serif;
+  font-size: 1.2rem;
+}
+
+#noticias .post .post-content .post-link a, #noticias .post .post-content .post-link a:hover, #noticias .post .post-content .post-link a:active {
+  color: #0D0318;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 0.6rem 3rem;
+  padding-bottom: 0.3rem;
+}
+
+.bg-color {
+  background-color: gold;
 }

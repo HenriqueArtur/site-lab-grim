@@ -2,8 +2,7 @@
  * Theme Name: Lab Grim
  * Author: Media Day
  * Author URI: 
- * Description: Tema desenvolvido por Gabriely Rodrigues, Henrique Artur e João () para o site do Lab Grim
- * Template: -
+ * Description: Tema desenvolvido por Gabriely Rodrigues e Henrique Artur para o site do Lab Grim
  * Version: 1.0
  * Text Domain: labgrim
  */
@@ -25,3 +24,6 @@
 
 // Estilo da Home
 @import './home';
+
+// Estilo de Notícias
+@import './noticias';
