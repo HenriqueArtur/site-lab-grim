@@ -10,7 +10,7 @@
             'classname'   => 'home-banner-widget',
             'description' => 'Widget para o banner principal da página inicial.'
         );
-        parent::__construct( 'home-banner-widget', 'Home Banner', $widget_ops );
+        parent::__construct( 'home-banner-widget', '.Lab Grim Home', $widget_ops );
     }
 
     // Metodo que cria o html na pagina
@@ -23,19 +23,11 @@
         ?>
         <div class="pelicula"></div>
         <div id="home-banner">
-        	<video src="<?php echo esc_url( $banner_bg_url ); ?>" autoplay loop width="100%"></video>
-        	<div class="container">
-        		<div class="row">
-        			<?php 
-        				if( !empty($instance['banner_logo_url']) ):
-        			?>
-        					<img class="logo-home" src="<?php echo esc_url( $banner_logo_url ); ?>" alt="<?php echo $title; ?>"></img>
-        			<?php 
-        				endif;
-        			?>
-        		</div>
-        	</div>
+        	<video src="<?php echo esc_url( $banner_bg_url ); ?>" autoplay loop class="bg-video"></video>
         </div>
+        <div class="div-logo-img">
+            <img class="logo-home img-fluid" src="<?php echo esc_url( $banner_logo_url ); ?>" alt="<?php echo $title; ?>"></img>
+    	</div>
         <?php
         echo $args['after_widget'];
     }

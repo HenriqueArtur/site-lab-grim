@@ -1,18 +1,35 @@
-.pelicula {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	height: 100%;
-    background-color: rgba( 13, 3, 24, 0.7 );
-}
+// Estilos da Home
 
 .lg-home-wrapper {
     position: fixed;
     width: 100%;
     top: 0;
     z-index: -1;
+
+    .div-logo-img {
+		height: 100vh !important;
+		width: 100vw !important;
+		padding: 1.6rem;
+		display: flex;
+	}
+
+	.pelicula {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	    background-color: rgba( 13, 3, 24, 0.7 );
+	}
+
+	#home-banner {
+		video {
+			z-index: -100 !important;
+			position: fixed;
+		}
+	}
 }
 
+// Estilo para aviso de não aver logo
 .attention {
 	font-family: "Bariol", sans-serif;
 	font-style: italic;
