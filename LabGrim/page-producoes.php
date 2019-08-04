@@ -53,11 +53,11 @@
 				</section>
 			<!-- end filtro -->
 			<!-- begin galeria -->
-				<!-- <section class="m-t-3p container" style="margin-bottom: 15%;">
+				 <section class="m-t-3p container" style="margin-bottom: 15%;">
 					<div class="galeria-title d-flex-sm justify-content-center-sm">
 						<h6 class="text-galeria left-float m-t-5p-xs m-t-1p-sm">GALERIA</h6>
 					</div>
-					<div class="container">
+					<!--<div class="container">
 					  <div class="row">
 					    <div id="carousel" class="carousel slide" data-ride="carousel">
 					      <div class="carousel-inner">
