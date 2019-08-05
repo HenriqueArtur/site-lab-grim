@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css'>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css'>
 		<section id="page-producoes" class="overflow-x-hidden">
 					
 			<!-- begin producoes -->
@@ -124,7 +126,7 @@
 					  </div>
 					</div>
 				</section> -->
-				<div class="container text-center my-3" id="Multi-img-carousel">
+				<!--<div class="container text-center my-3" id="Multi-img-carousel">
 		            <div class="row mx-auto my-auto">
 		                <div id="recipeCarousel" class="carousel slide w-100 d-flex" data-ride="carousel">
 		                    <div class="carousel-inner w-100" role="listbox">
@@ -176,8 +178,58 @@
 		                    </a>
 		                </div>
 		            </div>
-		        </div>
+		        </div>-->
 
+		        <div class="carousel">
+					<div class="gallery-post">
+	            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	            		<div class="post-text">
+		            		<h5 class="post-title m-t-1p">Título da postagem</h5>
+		            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+		            	</div>
+	            	</div>
+					<div class="gallery-post">
+	            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	            		<div class="post-text">
+		            		<h5 class="post-title m-t-1p">Título da postagem</h5>
+		            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+		            	</div>
+	            	</div>
+					<div class="gallery-post">
+	            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	            		<div class="post-text">
+		            		<h5 class="post-title m-t-1p">Título da postagem</h5>
+		            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+		            	</div>
+	            	</div>
+					<div class="gallery-post">
+	            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	            		<div class="post-text">
+		            		<h5 class="post-title m-t-1p">Título da postagem</h5>
+		            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+		            	</div>
+	            	</div>
+					<div class="gallery-post">
+	            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	            		<div class="post-text">
+		            		<h5 class="post-title m-t-1p">Título da postagem</h5>
+		            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+		            	</div>
+	            	</div>
+					<div class="gallery-post">
+	            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	            		<div class="post-text">
+		            		<h5 class="post-title m-t-1p">Título da postagem</h5>
+		            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+		            	</div>
+	            	</div>
+				</div>
 		    </div>
 			<!-- end galeria -->
 
@@ -188,5 +240,8 @@
 						</div>
 					</section>
 			<!-- end publicacoes -->
+		        <script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
+		        <script src='https://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+		        <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js'></script>
 		</section>
 <?php get_footer(); ?>
