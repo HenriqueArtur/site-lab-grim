@@ -11,23 +11,34 @@
 				</div>
 
 				<div class="row">
-					<div class="search-bar col-8"><?php get_search_form(); ?></div>
-					<div class="category-filter col-4">
-						
-						<?php
-						$categories = get_categories( array(
-						    'orderby' => 'name',
-						    'parent'  => 0
-						) );
-						 
-						foreach ( $categories as $category ) {
-						    printf( '<a href="%1$s">%2$s</a><br />',
-						        esc_url( get_category_link( $category->term_id ) ),
-						        esc_html( $category->name )
-						    );
-						}
-						?>
-
+					<div class="search-bar col-md-8 col-12"><?php get_search_form(); ?></div>
+					<div class="category-filter col-md-4 col-12">
+						<div class="row float-right">
+							<div class="text-category">
+								<h4>Filtrar por</h4>
+							</div>
+							<div class="dropdown show">
+								<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    	Categoria
+							    	<i class="fas fa-chevron-down"></i>
+							  	</a>
+								<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+									<?php
+									$categories = get_categories( array(
+									    'orderby' => 'name',
+									    'parent'  => 0
+									) );
+									 
+									foreach ( $categories as $category ) {
+									    printf( '<a class="dropdown-item" href="%1$s">%2$s</a>',
+									        esc_url( get_category_link( $category->term_id ) ),
+									        esc_html( $category->name )
+									    );
+									}
+									?>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -44,6 +55,9 @@
 									get_template_part( 'template-parts/post-resume', 'featured' );
 									
 								endwhile;
+								?>
+								<div class="pagination-area col-12 text-center">
+								<?php
 								$pagsAmount = 999;
 								echo paginate_links( array(
 								    'base' => str_replace( $pagsAmount, '%#%', get_pagenum_link( $pagsAmount ) ),
@@ -52,6 +66,9 @@
 								    'total' => $featured->max_num_pages
 								));
 								wp_reset_postdata();
+								?>
+								</div>
+								<?php
 							else:	
 						?>
 							<p>Não há posts para exibir.</p>

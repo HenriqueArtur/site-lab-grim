@@ -1,0 +1,64 @@
+#noticias {
+	.category-filter {
+
+		.text-category {
+			background-color: black;
+			display: flex;
+			width: 9rem;
+
+			h4 {
+				font-family: $font-category;
+				font-weight: bold;
+				font-size: 1rem;
+				text-transform: uppercase;
+				color: white;
+				margin: auto;
+			}
+		}
+
+		.dropdown {
+			.dropdown-toggle {
+				font-family: $font-category;
+				font-weight: bold;
+				font-size: 1rem;
+				text-transform: uppercase;
+				color: black;
+				border-radius: unset;
+				background-color: #bcaeac;
+				border: unset;
+				width: 12rem;
+				display: flex;
+				justify-content: space-between;
+
+				.fas {
+					margin-top: auto;
+					margin-bottom: auto;
+				}
+			}
+
+			.dropdown-toggle::after {
+			    display: none;
+			}
+
+			.btn-secondary.dropdown-toggle:focus {
+			    box-shadow: unset;
+			}
+
+			.dropdown-menu {
+				border-radius: unset;
+				width: 12rem;
+
+				.dropdown-item {
+					font-family: $font-category;
+					font-weight: bold;
+					font-size: 1rem;
+					text-transform: uppercase;
+				}
+
+				.dropdown-item:hover {
+					background-color: gold;
+				}
+			}
+		}
+	}
+}

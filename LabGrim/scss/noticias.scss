@@ -18,12 +18,8 @@
 		}
 	}
 
-	.search-bar{}
-
-	.category-filter{}
-
 	.post {
-		margin: 2rem auto;
+		margin: 3rem auto;
 
 		.post-thumbnail-rect {
 			height: 12.4rem;
@@ -94,4 +90,24 @@
 
 .bg-color {
 	background-color: gold;
+}
+
+.pagination-area {
+	margin: 1.6rem 0.2rem;
+
+	.page-numbers {
+		color: #bcaeac;
+		text-decoration: none;
+		margin: 1.6rem 0.2rem;
+	}
+
+	.page-numbers:hover {
+		color: gold;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	.current {
+		color: black;
+	}
 }
