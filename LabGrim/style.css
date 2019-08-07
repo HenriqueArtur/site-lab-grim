@@ -847,6 +847,26 @@ p {
   font-size: 1.1rem;
 }
 
+.publicacao-title {
+  font-family: "BariolBold", sans-serif;
+  text-align: left;
+  color: #0d0318;
+  font-size: 1.3rem;
+}
+
+.publicacao-link {
+  color: #48a3b2;
+  font-family: "BariolBold", sans-serif;
+  border-bottom: 2px solid;
+  font-size: 1rem;
+  display: inline-block;
+  text-decoration: none !important;
+}
+
+.publicacao-link:hover {
+  color: #2867a7;
+}
+
 .post-description {
   font-family: "BariolRegular", sans-serif;
   color: black;

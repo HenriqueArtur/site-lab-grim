@@ -216,6 +216,27 @@ p {
 	font-size: 1.1rem;
 }
 
+.publicacao-title {
+	font-family: $font-select;
+	text-align: left;
+	color: $dark-gray;
+	font-size: 1.3rem;
+}
+
+.publicacao-link {
+	color: $blue;
+	font-family: $font-select;;
+	border-bottom: 2px solid;
+	font-size: 1rem;
+	display: inline-block;
+	text-decoration: none !important;
+	
+}
+
+.publicacao-link:hover {
+	color: $blue-link;
+}
+
 .post-description {
 	font-family: $font-text;
 	color: black;

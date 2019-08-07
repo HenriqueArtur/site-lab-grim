@@ -123,114 +123,111 @@
 					        <span class="sr-only">Next</span>
 					      </a>
 					    </div>
-					  </div>
+					  </div>-->
+					<!--<div class="container text-center my-3" id="Multi-img-carousel">
+			            <div class="row mx-auto my-auto">
+			                <div id="recipeCarousel" class="carousel slide w-100 d-flex" data-ride="carousel">
+			                    <div class="carousel-inner w-100" role="listbox">
+			                        <div class="carousel-item active">
+			                        	<div class="gallery-post">
+			                        		<iframe width="250" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			                        		<h5 class="post-title m-t-1p">Título da postagem</h5>
+			                        		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			                        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+			                        	</div>
+
+			                        	<div class="gallery-post">
+			                        		<iframe width="250" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			                        		<h5 class="post-title m-t-1p">Título da postagem 2</h5>
+			                        		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			                        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+			                        	</div>
+
+			                        	<div class="gallery-post">
+			                        		<iframe width="250" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			                        		<h5 class="post-title m-t-1p">Título da postagem 3</h5>
+			                        		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			                        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+			                        	</div>
+			                        </div>
+			                        <div class="carousel-item ">
+			                            <img class="d-flex col-md-4 img-fluid" src="http://placehold.it/350x180?text=2">
+			                        </div>
+			                        <div class="carousel-item ">
+			                            <img class="d-flex col-md-4 img-fluid" src="http://placehold.it/350x180?text=3">
+			                        </div>
+			                        <div class="carousel-item">
+			                            <img class="d-flex col-md-4 img-fluid" src="http://placehold.it/350x180?text=4">
+			                        </div>
+			                        <div class="carousel-item">
+			                            <img class="d-flex col-md-4 img-fluid" src="http://placehold.it/350x180?text=5">
+			                        </div>
+			                        <div class="carousel-item">
+			                            <img class="d-block col-md-4 img-fluid" src="http://placehold.it/350x180?text=6">
+			                        </div>
+			                    </div>
+			                    <a class="carousel-control-prev control-button" href="#recipeCarousel" role="button" data-slide="prev">
+			                        <i class="fa fa-angle-left carousel-icon" aria-hidden="true"></i>
+			                        <span class="sr-only">Previous</span>
+			                    </a>
+			                    <a class="carousel-control-next control-button" href="#recipeCarousel" role="button" data-slide="next">
+			                        <i class="fa fa-angle-right carousel-icon" aria-hidden="true"></i>
+			                        <span class="sr-only">Next</span>
+			                    </a>
+			                </div>
+			            </div>
+			        </div>-->
+			        <div class="carousel m-t-1p">
+						<div class="gallery-post">
+		            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		            		<div class="post-text">
+			            		<h5 class="post-title m-t-1p">Título da postagem</h5>
+			            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+			            	</div>
+		            	</div>
+						<div class="gallery-post">
+		            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		            		<div class="post-text">
+			            		<h5 class="post-title m-t-1p">Título da postagem</h5>
+			            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+			            	</div>
+		            	</div>
+						<div class="gallery-post">
+		            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		            		<div class="post-text">
+			            		<h5 class="post-title m-t-1p">Título da postagem</h5>
+			            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+			            	</div>
+		            	</div>
+						<div class="gallery-post">
+		            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		            		<div class="post-text">
+			            		<h5 class="post-title m-t-1p">Título da postagem</h5>
+			            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+			            	</div>
+		            	</div>
+						<div class="gallery-post">
+		            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		            		<div class="post-text">
+			            		<h5 class="post-title m-t-1p">Título da postagem</h5>
+			            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+			            	</div>
+		            	</div>
+						<div class="gallery-post">
+		            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		            		<div class="post-text">
+			            		<h5 class="post-title m-t-1p">Título da postagem</h5>
+			            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+			            	</div>
+		            	</div>
 					</div>
-				</section> -->
-				<!--<div class="container text-center my-3" id="Multi-img-carousel">
-		            <div class="row mx-auto my-auto">
-		                <div id="recipeCarousel" class="carousel slide w-100 d-flex" data-ride="carousel">
-		                    <div class="carousel-inner w-100" role="listbox">
-		                        <div class="carousel-item active">
-		                        	<div class="gallery-post">
-		                        		<iframe width="250" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		                        		<h5 class="post-title m-t-1p">Título da postagem</h5>
-		                        		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		                        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-		                        	</div>
-
-		                        	<div class="gallery-post">
-		                        		<iframe width="250" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		                        		<h5 class="post-title m-t-1p">Título da postagem 2</h5>
-		                        		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		                        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-		                        	</div>
-
-		                        	<div class="gallery-post">
-		                        		<iframe width="250" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		                        		<h5 class="post-title m-t-1p">Título da postagem 3</h5>
-		                        		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		                        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-		                        	</div>
-		                        </div>
-		                        <div class="carousel-item ">
-		                            <img class="d-flex col-md-4 img-fluid" src="http://placehold.it/350x180?text=2">
-		                        </div>
-		                        <div class="carousel-item ">
-		                            <img class="d-flex col-md-4 img-fluid" src="http://placehold.it/350x180?text=3">
-		                        </div>
-		                        <div class="carousel-item">
-		                            <img class="d-flex col-md-4 img-fluid" src="http://placehold.it/350x180?text=4">
-		                        </div>
-		                        <div class="carousel-item">
-		                            <img class="d-flex col-md-4 img-fluid" src="http://placehold.it/350x180?text=5">
-		                        </div>
-		                        <div class="carousel-item">
-		                            <img class="d-block col-md-4 img-fluid" src="http://placehold.it/350x180?text=6">
-		                        </div>
-		                    </div>
-		                    <a class="carousel-control-prev control-button" href="#recipeCarousel" role="button" data-slide="prev">
-		                        <i class="fa fa-angle-left carousel-icon" aria-hidden="true"></i>
-		                        <span class="sr-only">Previous</span>
-		                    </a>
-		                    <a class="carousel-control-next control-button" href="#recipeCarousel" role="button" data-slide="next">
-		                        <i class="fa fa-angle-right carousel-icon" aria-hidden="true"></i>
-		                        <span class="sr-only">Next</span>
-		                    </a>
-		                </div>
-		            </div>
-		        </div>-->
-
-		        <div class="carousel">
-					<div class="gallery-post">
-	            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	            		<div class="post-text">
-		            		<h5 class="post-title m-t-1p">Título da postagem</h5>
-		            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-		            	</div>
-	            	</div>
-					<div class="gallery-post">
-	            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	            		<div class="post-text">
-		            		<h5 class="post-title m-t-1p">Título da postagem</h5>
-		            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-		            	</div>
-	            	</div>
-					<div class="gallery-post">
-	            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	            		<div class="post-text">
-		            		<h5 class="post-title m-t-1p">Título da postagem</h5>
-		            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-		            	</div>
-	            	</div>
-					<div class="gallery-post">
-	            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	            		<div class="post-text">
-		            		<h5 class="post-title m-t-1p">Título da postagem</h5>
-		            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-		            	</div>
-	            	</div>
-					<div class="gallery-post">
-	            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	            		<div class="post-text">
-		            		<h5 class="post-title m-t-1p">Título da postagem</h5>
-		            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-		            	</div>
-	            	</div>
-					<div class="gallery-post">
-	            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	            		<div class="post-text">
-		            		<h5 class="post-title m-t-1p">Título da postagem</h5>
-		            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-		            	</div>
-	            	</div>
-				</div>
-		    </div>
+				</section> 
 			<!-- end galeria -->
 
 			<!-- begin publicacoes -->
@@ -238,6 +235,114 @@
 						<div class="publicacoes-title d-flex-sm justify-content-center-sm">
 							<h6 class="text-publicacoes left-float m-t-5p-xs m-t-1p-sm">PUBLICAÇÕES</h6>
 						</div>
+						<div class="carousel-publicacoes m-t-1p">
+							<div class="publicacoes-post">
+			            		<div class="post-text">
+			            			<div class="row m-t-1p">
+			            				<div class="col-8">
+				            				<h5 class="publicacao-title">Título da postagem</h5>
+				            			</div>
+			            				<div class="col-4 text-right">
+				            				<a class="publicacao-link">VER MAIS</a>
+				            			</div>
+				            		</div>
+				            		<p class="post-description">
+				            			Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
+				            		</p>
+				            	</div>
+			            	</div>
+							<div class="publicacoes-post">
+			            		<div class="post-text">
+			            			<div class="row m-t-1p">
+			            				<div class="col-8">
+				            				<h5 class="publicacao-title">Título da postagem</h5>
+				            			</div>
+			            				<div class="col-4 text-right">
+				            				<a class="publicacao-link">VER MAIS</a>
+				            			</div>
+				            		</div>
+				            		<p class="post-description">
+				            			Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
+				            		</p>
+				            	</div>
+			            	</div>
+							<div class="publicacoes-post">
+			            		<div class="post-text">
+			            			<div class="row m-t-1p">
+			            				<div class="col-8">
+				            				<h5 class="publicacao-title">Título da postagem</h5>
+				            			</div>
+			            				<div class="col-4 text-right">
+				            				<a class="publicacao-link">VER MAIS</a>
+				            			</div>
+				            		</div>
+				            		<p class="post-description">
+				            			Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
+				            		</p>
+				            	</div>
+			            	</div>
+							<div class="publicacoes-post">
+			            		<div class="post-text">
+			            			<div class="row m-t-1p">
+			            				<div class="col-8">
+				            				<h5 class="publicacao-title">Título da postagem</h5>
+				            			</div>
+			            				<div class="col-4 text-right">
+				            				<a class="publicacao-link">VER MAIS</a>
+				            			</div>
+				            		</div>
+				            		<p class="post-description">
+				            			Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
+				            		</p>
+				            	</div>
+			            	</div>
+							<div class="publicacoes-post">
+			            		<div class="post-text">
+			            			<div class="row m-t-1p">
+			            				<div class="col-8">
+				            				<h5 class="publicacao-title">Título da postagem</h5>
+				            			</div>
+			            				<div class="col-4 text-right">
+				            				<a class="publicacao-link">VER MAIS</a>
+				            			</div>
+				            		</div>
+				            		<p class="post-description">
+				            			Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
+				            		</p>
+				            	</div>
+			            	</div>
+							<div class="publicacoes-post">
+			            		<div class="post-text">
+			            			<div class="row m-t-1p">
+			            				<div class="col-8">
+				            				<h5 class="publicacao-title">Título da postagem</h5>
+				            			</div>
+			            				<div class="col-4 text-right">
+				            				<a class="publicacao-link">VER MAIS</a>
+				            			</div>
+				            		</div>
+				            		<p class="post-description">
+				            			Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
+				            		</p>
+				            	</div>
+			            	</div>
+							<div class="publicacoes-post">
+			            		<div class="post-text">
+			            			<div class="row m-t-1p">
+			            				<div class="col-8">
+				            				<h5 class="publicacao-title">Título da postagem</h5>
+				            			</div>
+			            				<div class="col-4 text-right">
+				            				<a class="publicacao-link">VER MAIS</a>
+				            			</div>
+				            		</div>
+				            		<p class="post-description">
+				            			Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
+				            		</p>
+				            	</div>
+			            	</div>
+						</div>
+						
 					</section>
 			<!-- end publicacoes -->
 		        <script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
