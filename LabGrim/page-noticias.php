@@ -45,13 +45,19 @@
 				<div class="row">
 					<section class="post-content col-12">
 						<?php
+							/*
+							 * Aqui voce encontra o loop personalizado
+							 * pra reornar na pag de noícias
+							 */
 							$featured = new WP_Query( array('posts_per_page'=>10,
 								'post_type'=> 'post',
                                 'paged' => get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1) );
 
 							if( $featured->have_posts() ):
 								while( $featured->have_posts() ): $featured->the_post();
-
+									/*
+									 * Aqui é o ele pega o template do resumo do post
+									 */
 									get_template_part( 'template-parts/post-resume', 'featured' );
 									
 								endwhile;
