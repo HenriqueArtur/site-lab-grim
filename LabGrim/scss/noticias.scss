@@ -1,0 +1,113 @@
+// Estilos da página de Notícias
+#noticias{
+	.page-title {
+		margin: 2.6rem 0 1.6rem;
+
+		.title-bg-points {
+			background-image: url("./img/pattern_balls.svg");
+			position: absolute;
+			height: 3rem;
+			width: 18rem;
+			z-index: -1;
+			transform: translate(-0.2rem, -0.4rem);
+		}
+
+		h2 {
+			background-color: gold;
+			padding: 0.8rem 0rem 0;
+		}
+	}
+
+	.post {
+		margin: 3rem auto;
+
+		.post-thumbnail-rect {
+			height: 12.4rem;
+			width: 22rem;
+			position: absolute;
+			right: 23px;
+			bottom: 9px;
+			z-index: -1;
+		}
+
+		.tumb-post { border: 2px solid black; }
+
+		.post-content{
+			.post-title-area{
+				.post-category {
+					text-transform: uppercase;
+					color: #707070;
+					font-family: $font-category;
+					font-weight: bold;
+					font-size: 1.6rem;
+
+					a, a:hover, a:active {
+						color: #707070;
+						text-decoration: none;
+					}
+				}
+
+				.post-title {
+					color: #0D0318;
+					font-family: $font-category;
+					font-weight: bold;
+					font-size: 1.6rem;
+				}
+			}
+
+			p {
+				color: #000;
+				font-family: $font-text-post;
+				font-weight: normal;
+				font-size: 1rem;
+			}
+
+			.post-link-rect {
+				height: 2.3rem;
+				width: 11.4rem;
+				position: absolute;
+				right: 20px;
+				bottom: 22px;
+				z-index: -1;
+			}
+
+			.post-link {
+				text-transform: uppercase;
+				font-family: $font-btn-post;
+				font-size: 1.2rem;
+
+				a, a:hover, a:active {
+					color: #0D0318;
+					text-decoration: none;
+					border: 2px solid black;
+					padding: 0.6rem 3rem;
+					padding-bottom: 0.3rem;
+				}
+			}
+		}
+	}
+}
+
+.bg-color {
+	background-color: gold;
+}
+
+.pagination-area {
+	margin: 1.6rem 0.2rem;
+
+	.page-numbers {
+		color: #bcaeac;
+		text-decoration: none;
+		margin: 1.6rem 0.2rem;
+	}
+
+	.page-numbers:hover {
+		color: gold;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	.current {
+		color: black;
+	}
+}

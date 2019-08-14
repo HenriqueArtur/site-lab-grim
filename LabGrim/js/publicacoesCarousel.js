@@ -18,7 +18,7 @@ $('.carousel-publicacoes').slick({
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 730,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1

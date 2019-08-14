@@ -13,7 +13,7 @@
 			<!-- end producoes -->
 			<!-- begin filtro -->
 				<section class="m-t-5p container">
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-lg-7">
 							<div class="row">
 						        <div class="col-auto">
@@ -37,21 +37,39 @@
 									</select>
 								</div>
 							</div>
-					    	<!--<div class="btn-group" role="group">
-								<span class="input-group-text addon-filtro">FILTRAR POR</span>
-
-								<div class="btn-group" role="group">
-									<button id="dropdown-galeria" type="button" class="dropdown-filtro" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								  		CATEGORIA <i class="fa fa-angle-down"></i>
-									</button>
-									<div class="dropdown-menu" aria-labelledby="dropdown-galeria">
-									 	<a class="dropdown-item" href="#">CATEGORIA</a>
-									  	<a class="dropdown-item" href="#">Dropdown link</a>
+					    </div>
+				    </div> -->
+				    <div class="row">
+						<div class="search-bar col-sm-6 col-md-6 col-12"><?php get_search_form(); ?></div>
+						<div class="category-filter col-sm-6 col-md-6 col-12 p-t-3p-xs p-l-6p-xs">
+							<div class="row right-float">
+								<div class="text-category">
+									<h4>Filtrar por</h4>
+								</div>
+								<div class="dropdown show">
+									<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								    	Categoria
+								    	<i class="fas fa-chevron-down"></i>
+								  	</a>
+									<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+										<?php
+										$categories = get_categories( array(
+										    'orderby' => 'name',
+										    'parent'  => 0
+										) );
+										 
+										foreach ( $categories as $category ) {
+										    printf( '<a class="dropdown-item" href="%1$s">%2$s</a>',
+										        esc_url( get_category_link( $category->term_id ) ),
+										        esc_html( $category->name )
+										    );
+										}
+										?>
 									</div>
 								</div>
-							</div>-->
-					    </div>
-				    </div>
+							</div>
+						</div>
+					</div>
 				</section>
 			<!-- end filtro -->
 			<!-- begin galeria -->
