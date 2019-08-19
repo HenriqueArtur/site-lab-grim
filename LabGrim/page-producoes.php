@@ -41,7 +41,7 @@
 				    </div> -->
 				    <div class="row">
 						<div class="search-bar col-sm-6 col-md-6 col-12"><?php get_search_form(); ?></div>
-						<div class="category-filter col-sm-6 col-md-6 col-12 p-t-3p-xs p-l-6p-xs">
+						<div class="category-filter col-sm-6 col-md-6 col-12 p-t-3p-xs p-l-6p-xs p-r-6p-md p-r-6p-lg">
 							<div class="row right-float">
 								<div class="text-category">
 									<h4>Filtrar por</h4>
@@ -78,60 +78,24 @@
 						<h6 class="text-galeria left-float m-t-5p-xs m-t-1p-sm">GALERIA</h6>
 					</div>
 			        <div class="carousel m-t-1p">
-						<div class="gallery-post">
-		            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		            		<div class="post-text">
-			            		<h5 class="post-title m-t-1p">Título da postagem</h5>
-			            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-			            	</div>
-		            	</div>
-						<div class="gallery-post">
-		            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		            		<div class="post-text">
-			            		<h5 class="post-title m-t-1p">Título da postagem</h5>
-			            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-			            	</div>
-		            	</div>
-						<div class="gallery-post">
-		            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		            		<div class="post-text">
-			            		<h5 class="post-title m-t-1p">Título da postagem</h5>
-			            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-			            	</div>
-		            	</div>
-						<div class="gallery-post">
-		            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		            		<div class="post-text">
-			            		<h5 class="post-title m-t-1p">Título da postagem</h5>
-			            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-			            	</div>
-		            	</div>
-						<div class="gallery-post">
-		            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		            		<div class="post-text">
-			            		<h5 class="post-title m-t-1p">Título da postagem</h5>
-			            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-			            	</div>
-		            	</div>
-						<div class="gallery-post">
-		            		<iframe class="post-video" height="200" src="https://www.youtube.com/embed/av5JD1dfj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		            		<div class="post-text">
-			            		<h5 class="post-title m-t-1p">Título da postagem</h5>
-			            		<p class="post-description">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-			            	</div>
-		            	</div>
+						<?php 
+	                		if( is_active_sidebar('page-producoes') ):
+	                			dynamic_sidebar('page-producoes');
+	                		else: ?>
+	                		<div class="container">
+								<div class="row m-b-5p">
+									<h2 class="attention col-12 text-center">Adicione o Widget "Galeria Produções" na barra "Produções" que se localiza em PAINEL > APARÊNCIA > WIDGETS.</h2>
+								</div>
+							</div>
+						<?php
+							endif;
+						?>
 					</div>
 				</section> 
 			<!-- end galeria -->
 
 			<!-- begin publicacoes -->
-					<section class="m-t-3p container">
+					<section class="m-t-3p m-b-3p container">
 						<div class="publicacoes-title d-flex-sm justify-content-center-sm">
 							<h6 class="text-publicacoes left-float m-t-5p-xs m-t-1p-sm">PUBLICAÇÕES</h6>
 						</div>

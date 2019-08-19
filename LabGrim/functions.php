@@ -5,6 +5,7 @@ require get_template_directory() . '/customizers/customizer-sobre.php';
 require get_template_directory() . '/customizers/customizer-producoes.php';
 require get_template_directory() . '/widgets/widget-home.php';
 require get_template_directory() . '/widgets/widget-sobre.php';
+require get_template_directory() . '/widgets/widget-galeria-producoes.php';
 
 // Carrega scripts e folhas de estilo
 function load_scripts() {
@@ -79,6 +80,18 @@ function labgrim_sidebars() {
 			'before_widget'    => '<div class="sobre-pesquisadores-wrapper">',
 			'after_widget'     => '</div>',
 			'before_title'     => '<h2 class="sobre-pesquisadores-title">',
+			'after_title'      => '</h2>'
+		)
+	);
+
+	register_sidebar(
+		array(
+			'name'             => 'Produções',
+			'id'               => 'page-producoes',
+			'description'      => 'Área para adição do widget Galeria Produções',
+			'before_widget'    => '<div class="galeria-producoes-wrapper">',
+			'after_widget'     => '</div>',
+			'before_title'     => '<h2 class="galeria-producoes-title">',
 			'after_title'      => '</h2>'
 		)
 	);

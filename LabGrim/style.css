@@ -660,6 +660,10 @@ p {
   margin-top: 3%;
 }
 
+.m-b-3p {
+  margin-bottom: 3%;
+}
+
 .r-3p {
   right: 3% !important;
 }
@@ -726,7 +730,7 @@ p {
   width: 9rem;
 }
 
-@media screen and (min-width: 577px) and (max-width: 767px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
   .category-filter .text-category {
     width: 7rem;
   }
@@ -763,6 +767,12 @@ p {
 @media screen and (min-width: 577px) and (max-width: 767px) {
   .category-filter .dropdown .dropdown-toggle {
     width: 8rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .category-filter .dropdown .dropdown-toggle {
+    width: 10rem;
   }
 }
 
@@ -996,6 +1006,18 @@ p {
   }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .p-r-6p-md {
+    padding-right: 6%;
+  }
+}
+
+@media (min-width: 992px) {
+  .p-r-6p-lg {
+    padding-right: 6%;
+  }
+}
+
 /***********************CAROUSEL************************************/
 .frame {
   background-image: url("./img/framegaleria.svg");
@@ -1061,6 +1083,7 @@ p {
   font-family: "BariolRegular", sans-serif;
   color: black;
   font-size: 0.9rem;
+  text-indent: 2rem;
 }
 
 .post-video, .post-text {
@@ -1135,8 +1158,6 @@ p {
   transform: translateX(0);
 }
 
-.pelicula {
-=======
 .lg-home-wrapper {
   position: fixed;
   width: 100%;
@@ -1208,7 +1229,7 @@ p {
 #noticias .post .post-content .post-title-area .post-category {
   text-transform: uppercase;
   color: #707070;
-  font-family: "Bariol", sans-serif;
+  font-family: "BariolBold", sans-serif;
   font-weight: bold;
   font-size: 1.6rem;
 }
@@ -1220,7 +1241,7 @@ p {
 
 #noticias .post .post-content .post-title-area .post-title {
   color: #0D0318;
-  font-family: "Bariol", sans-serif;
+  font-family: "BariolBold", sans-serif;
   font-weight: bold;
   font-size: 1.6rem;
 }
@@ -1292,7 +1313,7 @@ p {
 }
 
 #noticias .category-filter .text-category h4 {
-  font-family: "Bariol", sans-serif;
+  font-family: "BariolBold", sans-serif;
   font-weight: bold;
   font-size: 1rem;
   text-transform: uppercase;
@@ -1301,7 +1322,7 @@ p {
 }
 
 #noticias .category-filter .dropdown .dropdown-toggle {
-  font-family: "Bariol", sans-serif;
+  font-family: "BariolBold", sans-serif;
   font-weight: bold;
   font-size: 1rem;
   text-transform: uppercase;
@@ -1333,7 +1354,7 @@ p {
 }
 
 #noticias .category-filter .dropdown .dropdown-menu .dropdown-item {
-  font-family: "Bariol", sans-serif;
+  font-family: "BariolBold", sans-serif;
   font-weight: bold;
   font-size: 1rem;
   text-transform: uppercase;
@@ -1382,7 +1403,7 @@ p {
 }
 
 #noticias .search-form .inner-form .input-field input[type=text] {
-  font-family: "Bariol", sans-serif;
+  font-family: "BariolBold", sans-serif;
   font-weight: bold;
   font-size: 1rem;
   color: black !important;
