@@ -1,0 +1,48 @@
+#noticias {
+	.search-form {
+		font-size: 1.5rem;
+
+		.inner-form {
+			.input-field {
+				position: relative;
+
+				.btn-search {
+					width: 70px;
+					position: absolute;
+					left: 0;
+					height: 100%;
+					border: 0;
+					padding: 0;
+					cursor: pointer;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					border-radius: 34px;
+					background-color: black;
+
+					.fas {
+						color: white;
+					}
+				}
+
+				#search {
+					height: 100%;
+					border: 0;
+					background: #bcaeac;
+					display: block;
+					width: 100%;
+					padding: 4px 32px 4px 80px;
+					font-size: 18px;
+					border-radius: 34px;
+				}
+
+				input[type=text] {
+					font-family: $font-category;
+					font-weight: bold;
+					font-size: 1rem;
+					color: black !important;
+				}
+			}
+		}
+	}
+}
