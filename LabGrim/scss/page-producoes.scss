@@ -9,6 +9,11 @@ p {
     color: black;
 }
 
+.publicacoes-post {
+	width: 95%;
+	padding-right: 5%;
+}
+
 .text-publicacoes {
     font-family: $font-header !important;
     font-weight: normal;
@@ -33,6 +38,10 @@ p {
 
 .r-3p {
 	right: 3% !important;
+}
+
+.text-indent-3 {
+	text-indent: 3rem;
 }
 
 .producao-title {

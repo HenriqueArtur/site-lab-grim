@@ -98,3 +98,21 @@ function labgrim_sidebars() {
 }
 
 add_image_size( 'labgrim-thumbnail', 350, 196, array( 'center', 'center' ) );
+
+
+////////////////CUSTOM POST TYPE/////////////////////////////////
+
+function create_posttype() {
+  register_post_type( 'publicacoes',
+    array(
+      'labels' => array(
+        'name' => __( 'Publicações' ),
+        'singular_name' => __( 'Publicação' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'rewrite' => array('slug' => 'producoes'),
+    )
+  );
+}
+add_action( 'init', 'create_posttype' );

@@ -8,7 +8,7 @@
 					<div class="producao-title row justify-content-center">
 						<h4>PRODUÇÕES</h4>
 					</div>
-					<p class="m-t-1p"><?php echo get_theme_mod('set_producoes-texto'); ?> </p>
+					<p class="m-t-1p text-indent-3"><?php echo get_theme_mod('set_producoes-texto'); ?> </p>
 				</section>
 			<!-- end producoes -->
 			<!-- begin filtro -->
@@ -100,7 +100,7 @@
 							<h6 class="text-publicacoes left-float m-t-5p-xs m-t-1p-sm">PUBLICAÇÕES</h6>
 						</div>
 						<div class="carousel-publicacoes m-t-1p">
-							<div class="publicacoes-post">
+							<!--<div class="publicacoes-post">
 			            		<div class="post-text">
 			            			<div class="row m-t-1p">
 			            				<div class="col-8">
@@ -114,97 +114,44 @@
 				            			Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
 				            		</p>
 				            	</div>
-			            	</div>
-							<div class="publicacoes-post">
-			            		<div class="post-text">
-			            			<div class="row m-t-1p">
-			            				<div class="col-8">
-				            				<h5 class="publicacao-title">Título da postagem</h5>
-				            			</div>
-			            				<div class="col-4 text-right">
-				            				<a class="publicacao-link">VER MAIS</a>
-				            			</div>
-				            		</div>
-				            		<p class="post-description">
-				            			Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
-				            		</p>
-				            	</div>
-			            	</div>
-							<div class="publicacoes-post">
-			            		<div class="post-text">
-			            			<div class="row m-t-1p">
-			            				<div class="col-8">
-				            				<h5 class="publicacao-title">Título da postagem</h5>
-				            			</div>
-			            				<div class="col-4 text-right">
-				            				<a class="publicacao-link">VER MAIS</a>
-				            			</div>
-				            		</div>
-				            		<p class="post-description">
-				            			Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
-				            		</p>
-				            	</div>
-			            	</div>
-							<div class="publicacoes-post">
-			            		<div class="post-text">
-			            			<div class="row m-t-1p">
-			            				<div class="col-8">
-				            				<h5 class="publicacao-title">Título da postagem</h5>
-				            			</div>
-			            				<div class="col-4 text-right">
-				            				<a class="publicacao-link">VER MAIS</a>
-				            			</div>
-				            		</div>
-				            		<p class="post-description">
-				            			Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
-				            		</p>
-				            	</div>
-			            	</div>
-							<div class="publicacoes-post">
-			            		<div class="post-text">
-			            			<div class="row m-t-1p">
-			            				<div class="col-8">
-				            				<h5 class="publicacao-title">Título da postagem</h5>
-				            			</div>
-			            				<div class="col-4 text-right">
-				            				<a class="publicacao-link">VER MAIS</a>
-				            			</div>
-				            		</div>
-				            		<p class="post-description">
-				            			Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
-				            		</p>
-				            	</div>
-			            	</div>
-							<div class="publicacoes-post">
-			            		<div class="post-text">
-			            			<div class="row m-t-1p">
-			            				<div class="col-8">
-				            				<h5 class="publicacao-title">Título da postagem</h5>
-				            			</div>
-			            				<div class="col-4 text-right">
-				            				<a class="publicacao-link">VER MAIS</a>
-				            			</div>
-				            		</div>
-				            		<p class="post-description">
-				            			Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
-				            		</p>
-				            	</div>
-			            	</div>
-							<div class="publicacoes-post">
-			            		<div class="post-text">
-			            			<div class="row m-t-1p">
-			            				<div class="col-8">
-				            				<h5 class="publicacao-title">Título da postagem</h5>
-				            			</div>
-			            				<div class="col-4 text-right">
-				            				<a class="publicacao-link">VER MAIS</a>
-				            			</div>
-				            		</div>
-				            		<p class="post-description">
-				            			Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
-				            		</p>
-				            	</div>
-			            	</div>
+			            	</div>-->
+			            	<?php
+							/*
+							 * Aqui voce encontra o loop personalizado
+							 * pra reornar na pag de noícias
+							 */
+							$featured = new WP_Query( array('posts_per_page'=>10,
+								'post_type'=> 'publicacoes',
+                                'paged' => get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1) );
+
+							if( $featured->have_posts() ):
+								while( $featured->have_posts() ): $featured->the_post();
+									/*
+									 * Aqui é o ele pega o template do resumo do post
+									 */
+									get_template_part( 'template-parts/publi-resume', 'featured' );
+									
+								endwhile;
+								?>
+								<div class="pagination-area col-12 text-center">
+								<?php
+								$pagsAmount = 999;
+								echo paginate_links( array(
+								    'base' => str_replace( $pagsAmount, '%#%', get_pagenum_link( $pagsAmount ) ),
+								    'format' => '?paged=%#%',
+								    'current' => max( 1, get_query_var('paged') ),
+								    'total' => $featured->max_num_pages
+								));
+								wp_reset_postdata();
+								?>
+								</div>
+								<?php
+							else:	
+						?>
+							<p>Não há posts para exibir.</p>
+						<?php
+							endif;
+						?>
 						</div>
 						
 					</section>

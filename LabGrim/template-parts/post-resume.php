@@ -1,5 +1,5 @@
 <!-- Adicinando classe no post com WP -->
-<article <?php post_class(); ?>>
+<article <?php post_class(); ?> style="width: 7% !important;">
 	<div class="row">
 		<div class="col-md-4 col-12">
 			<div class="post-thumbnail-rect bg-color"></div>
