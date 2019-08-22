@@ -28,7 +28,10 @@ $('.carousel').slick({
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        arrows: false,
+        infinite: true,
+        dots: true
       }
     }
   ]
