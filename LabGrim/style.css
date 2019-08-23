@@ -647,6 +647,12 @@ p {
   padding-right: 5%;
 }
 
+.publicacoes-post-title {
+  font-family: "BariolBold", sans-serif;
+  margin-top: 3%;
+  font-size: 3rem;
+}
+
 .text-publicacoes {
   font-family: "LoveloBlack", sans-serif !important;
   font-weight: normal;
