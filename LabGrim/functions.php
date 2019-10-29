@@ -3,6 +3,7 @@
 require get_template_directory() . '/customizers/customizer-footer.php';
 require get_template_directory() . '/customizers/customizer-sobre.php';
 require get_template_directory() . '/customizers/customizer-producoes.php';
+require get_template_directory() . '/customizers/customizer-agenda.php';
 require get_template_directory() . '/widgets/widget-home.php';
 require get_template_directory() . '/widgets/widget-sobre.php';
 require get_template_directory() . '/widgets/widget-galeria-producoes.php';
