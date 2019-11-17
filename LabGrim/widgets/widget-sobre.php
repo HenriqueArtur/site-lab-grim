@@ -33,7 +33,7 @@
 	        		?>
 				</div>
 				<b class="nome"><?php echo $name; ?></b>
-				<p class="text-center"><?php echo $bio; ?></p>
+				<p class="text-center m-t-3p"><?php echo $bio; ?></p>
 				<a href="<?php echo esc_url( $lattes_url ); ?>" class="link" target="_blank">- Link lattes -</a>
             </li>
 	        <?php
