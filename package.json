@@ -6,7 +6,7 @@
     "watch": "nodemon -w LabGrim/scss -e scss -x \"npm run css\""
   },
   "devDependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "nodemon": "^1.18.11"
   }
 }
