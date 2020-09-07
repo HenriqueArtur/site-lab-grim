@@ -16,7 +16,7 @@
 					<h4 class="text-center left-float m-t-5p-xs m-t-1p-sm">COMO COMEÇOU...</h4>
 				</div>
 
-				<p class="m-t-1p"><?php echo get_theme_mod('set_oqe-texto'); ?> </p>
+				<p class="m-t-1p"><?php echo get_theme_mod('set_como-comecou-texto'); ?> </p>
 
 				<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim sapien, rutrum eu ultricies nec, eleifend finibus dui. Fusce pretium elit at dui ultricies, in vulputate lorem luctus. Suspendisse ornare orci sed rhoncus lobortis. Nunc ac egestas augue. Morbi et maximus felis, nec ullamcorper lorem. Morbi sit amet augue vehicula, scelerisque elit nec, dapibus sapien. Duis sit amet libero venenatis, consectetur enim non, placerat leo. Cras tortor ex, tincidunt eu malesuada sed, bibendum ac ante.</p> -->
 			</section>
